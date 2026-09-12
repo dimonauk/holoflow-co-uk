@@ -709,6 +709,7 @@ import { entry as blenderTutorialPythonNumpyKpzKardarParisiZhang1986StochasticSu
 import { entry as blenderTutorialPythonNumpyKortewegDeVries1895SolitonCollisionPseudospectralRk4SpaceTimeHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-korteweg-de-vries-1895-soliton-collision-pseudospectral-rk4-space-time-height-field-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpyKadomtsevPetviashviliKpIi1970ExactWebSolitonHirotaTauStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-kadomtsev-petviashvili-kp-ii-1970-exact-web-soliton-hirota-tau-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpyOregonatorBelousovZhabotinskyBzFkn1972ChemicalSpiralWaveHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-oregonator-belousov-zhabotinsky-bz-fkn-1972-chemical-spiral-wave-height-field-stage-floor-webxr";
+import { entry as blenderTutorialPythonNumpyBurgersEquation1948ColeHopfExactShockFormationViscousRegularisationHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-burgers-equation-1948-cole-hopf-exact-shock-formation-viscous-regularisation-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1425,6 +1426,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyKortewegDeVries1895SolitonCollisionPseudospectralRk4SpaceTimeHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyKadomtsevPetviashviliKpIi1970ExactWebSolitonHirotaTauStageFloorWebxrEntry,
   blenderTutorialPythonNumpyOregonatorBelousovZhabotinskyBzFkn1972ChemicalSpiralWaveHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyBurgersEquation1948ColeHopfExactShockFormationViscousRegularisationHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

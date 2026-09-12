@@ -1,0 +1,65 @@
+{
+  "artefacts": [
+    { "path": "burgers_shock_floor.blend", "type": "blend", "note": "Blender scene with shape keys" },
+    { "path": "burgers_shock_floor.glb",   "type": "glb",   "note": "WebXR export, Draco-6, morph targets" },
+    { "path": "blueprint.py",              "type": "script" },
+    { "path": "record.py",                 "type": "script" },
+    { "path": "README.md",                 "type": "doc" },
+    { "path": "SCREEN-RECORDING-NOTES.md", "type": "doc" }
+  ],
+  "videos": [
+    { "path": "public/library/videos/scripting/python-numpy-burgers-equation-1948-cole-hopf-exact-shock-formation-viscous-regularisation-height-field-stage-floor-webxr/viewport.mp4", "note": "Rendered by record.py" },
+    { "path": "public/library/videos/scripting/python-numpy-burgers-equation-1948-cole-hopf-exact-shock-formation-viscous-regularisation-height-field-stage-floor-webxr/screen.mp4",   "note": "OBS screen recording per SCREEN-RECORDING-NOTES.md" }
+  ],
+  "cross_references": {
+    "studio_surfaces": [
+      "/tutorials/blender-tutorial-python-numpy-korteweg-de-vries-1895-soliton-collision-pseudospectral-rk4-space-time-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-kpz-kardar-parisi-zhang-1986-stochastic-surface-growth-universality-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-kuramoto-sivashinsky-pde-spatiotemporal-chaos-flame-front-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "title": "Burgers J M (1948) A mathematical model illustrating the theory of turbulence",
+        "url": "https://doi.org/10.1016/S0065-2156(08)70100-5",
+        "licence": "PD (1948)",
+        "author": "Burgers J M"
+      },
+      {
+        "title": "Hopf E (1950) The partial differential equation u_t + u u_x = mu u_xx",
+        "url": "https://doi.org/10.1002/cpa.3160030302",
+        "licence": "PD (1950)",
+        "author": "Hopf E"
+      },
+      {
+        "title": "Cole J D (1951) On a quasi-linear parabolic equation occurring in aerodynamics",
+        "url": "https://doi.org/10.1090/qam/42889",
+        "licence": "PD (1951)",
+        "author": "Cole J D"
+      },
+      {
+        "title": "NumPy — BSD-3-Clause",
+        "url": "https://numpy.org/doc/stable/",
+        "licence": "BSD-3-Clause",
+        "author": "NumPy contributors"
+      }
+    ]
+  },
+  "mesh": {
+    "vertices": 16384,
+    "quads": 16129,
+    "shape_keys": ["Basis", "SK_HighNu", "SK_LowNu", "SK_NWave"],
+    "colour_attribute": "Burgers_Vel",
+    "attribute_domain": "POINT",
+    "attribute_type": "FLOAT_COLOR"
+  },
+  "physics": {
+    "equation": "Burgers: u_t + u u_x = nu u_xx",
+    "method": "Cole-Hopf exact solution via Fourier heat kernel",
+    "grid": "N_X=128, L=2, dx=L/N_X=0.015625",
+    "time": "T_FINAL=1.5, N_T=128",
+    "shock_time": "t_shock = 1/pi ~= 0.318 for u0=-sin(pi*x)",
+    "rankine_hugoniot": "s = (u+ + u-)/2 = 0 (stationary shock by symmetry)",
+    "shock_width": "delta ~= 4*nu / |u+ - u-|"
+  }
+}
