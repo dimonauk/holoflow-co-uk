@@ -707,6 +707,7 @@ import { entry as blenderTutorialPythonNumpyGumowskiMiraMap1980ConservativeSympl
 import { entry as blenderTutorialPythonNumpyTalbotEffectHenryFoxTalbot1836SelfImagingDiffractionGratingFractionalTalbotGaussSumHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-talbot-effect-henry-fox-talbot-1836-self-imaging-diffraction-grating-fractional-talbot-gauss-sum-height-field-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpyKpzKardarParisiZhang1986StochasticSurfaceGrowthUniversalityHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-kpz-kardar-parisi-zhang-1986-stochastic-surface-growth-universality-height-field-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpyKortewegDeVries1895SolitonCollisionPseudospectralRk4SpaceTimeHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-korteweg-de-vries-1895-soliton-collision-pseudospectral-rk4-space-time-height-field-stage-floor-webxr";
+import { entry as blenderTutorialPythonNumpyKadomtsevPetviashviliKpIi1970ExactWebSolitonHirotaTauStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-kadomtsev-petviashvili-kp-ii-1970-exact-web-soliton-hirota-tau-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1421,6 +1422,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyTalbotEffectHenryFoxTalbot1836SelfImagingDiffractionGratingFractionalTalbotGaussSumHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyKpzKardarParisiZhang1986StochasticSurfaceGrowthUniversalityHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyKortewegDeVries1895SolitonCollisionPseudospectralRk4SpaceTimeHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyKadomtsevPetviashviliKpIi1970ExactWebSolitonHirotaTauStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

@@ -1,0 +1,41 @@
+{
+  "blend": "kp_ii_web_soliton_floor.blend",
+  "glb":   "kp_ii_web_soliton_floor.glb",
+  "videos": {
+    "viewport": "public/library/videos/scripting/python-numpy-kadomtsev-petviashvili-kp-ii-1970-exact-web-soliton-hirota-tau-stage-floor-webxr/viewport.mp4",
+    "screen":   "public/library/videos/scripting/python-numpy-kadomtsev-petviashvili-kp-ii-1970-exact-web-soliton-hirota-tau-stage-floor-webxr/screen.mp4"
+  },
+  "mesh": {
+    "verts": 16384,
+    "quads": 16129,
+    "shape_keys": ["Basis", "SK_YJunction", "SK_Web4", "SK_Temporal"],
+    "attributes": ["KP_Height"]
+  },
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-korteweg-de-vries-1895-soliton-collision-pseudospectral-rk4-space-time-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-complex-ginzburg-landau-pde-spiral-turbulence-benjamin-feir-defect-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-cahn-hilliard-phase-field-spinodal-decomposition-ostwald-ripening-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-kpz-kardar-parisi-zhang-1986-stochastic-surface-growth-universality-height-field-stage-floor-webxr",
+      "/codex"
+    ],
+    "external": [
+      {
+        "url":     "https://doi.org/10.1103/PhysRevLett.27.1192",
+        "title":   "Exact Solution of the KdV Equation for Multiple Collisions (Hirota 1971)",
+        "licence": "PD",
+        "author":  "Ryogo Hirota"
+      },
+      {
+        "url":     "https://arxiv.org/abs/1108.4984",
+        "title":   "KP Solitons and Total Positivity for the Grassmannian (Kodama & Williams 2011)",
+        "licence": "CC-BY (equations PD)",
+        "author":  "Yuji Kodama, Lauren Williams"
+      }
+    ]
+  },
+  "blender_version": "5.1",
+  "licence":  "CC0",
+  "category": "scripting",
+  "date":     "2026-09-12"
+}
