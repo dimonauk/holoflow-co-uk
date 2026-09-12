@@ -1,0 +1,78 @@
+{
+  "blend": "kpz_growth_floor.blend",
+  "glb": "kpz_growth_floor.glb",
+  "videos": ["viewport.mp4", "screen.mp4"],
+  "blender_version": "5.1",
+  "grid": "128x128",
+  "vertices": 16384,
+  "quads": 16129,
+  "shape_keys": ["Basis", "SK_Long", "SK_EW", "SK_Strong"],
+  "vertex_attributes": ["KPZ_Height"],
+  "export": {
+    "draco_level": 6,
+    "texture_format": "WEBP",
+    "export_morph": true,
+    "export_colors": true,
+    "y_up": true
+  },
+  "cross_references": {
+    "studio_articles": [
+      "/articles/holoflow-webxr-stage-floors",
+      "/codex/blender-python-scripting",
+      "/codex/numpy-in-blender"
+    ],
+    "studio_tutorials": [
+      "/tutorials/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-cahn-hilliard-phase-field-spinodal-decomposition-ostwald-ripening-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-swift-hohenberg-pde-hexagonal-rolls-benard-convection-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-complex-ginzburg-landau-pde-spiral-turbulence-benjamin-feir-defect-height-field-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "title": "Dynamic scaling of growing interfaces",
+        "authors": "Kardar M, Parisi G, Zhang Y-C",
+        "year": 1986,
+        "journal": "Physical Review Letters",
+        "volume": 56,
+        "pages": "889-892",
+        "doi": "10.1103/PhysRevLett.56.889",
+        "url": "https://doi.org/10.1103/PhysRevLett.56.889",
+        "licence": "Mathematical equations — public domain",
+        "related_projects": [
+          "https://github.com/orgs/numpy/repositories",
+          "https://github.com/scipy/scipy"
+        ]
+      },
+      {
+        "title": "The surface statistics of a granular aggregate (Edwards–Wilkinson)",
+        "authors": "Edwards SF, Wilkinson DR",
+        "year": 1982,
+        "journal": "Proceedings of the Royal Society A",
+        "volume": 381,
+        "pages": "17-31",
+        "doi": "10.1098/rspa.1982.0056",
+        "url": "https://doi.org/10.1098/rspa.1982.0056",
+        "licence": "Mathematical equations — public domain",
+        "related_projects": [
+          "https://github.com/fractalego/kpz-simulator",
+          "https://github.com/orgs/numpy/repositories"
+        ]
+      },
+      {
+        "title": "Array programming with NumPy",
+        "authors": "Harris CR et al.",
+        "year": 2020,
+        "journal": "Nature",
+        "volume": 585,
+        "pages": "357-362",
+        "doi": "10.1038/s41586-020-2649-2",
+        "url": "https://numpy.org",
+        "licence": "BSD-3-Clause",
+        "related_projects": [
+          "https://github.com/scipy/scipy",
+          "https://github.com/cupy/cupy"
+        ]
+      }
+    ]
+  }
+}
