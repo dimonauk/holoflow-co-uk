@@ -1,0 +1,49 @@
+{
+  "artefacts": [
+    { "path": "bz_oregonator_floor.blend", "type": "blend", "note": "Blender scene with 4 shape keys" },
+    { "path": "bz_oregonator_floor.glb",   "type": "glb",   "note": "WebXR export, Draco-6, morph targets, WebP" },
+    { "path": "blueprint.py",              "type": "script" },
+    { "path": "record.py",                 "type": "script" },
+    { "path": "README.md",                 "type": "doc" },
+    { "path": "SCREEN-RECORDING-NOTES.md", "type": "doc" }
+  ],
+  "videos": [
+    {
+      "path": "public/library/videos/scripting/python-numpy-oregonator-belousov-zhabotinsky-bz-fkn-1972-chemical-spiral-wave-height-field-stage-floor-webxr/viewport.mp4",
+      "note": "Rendered by record.py — shape key crossfade + camera orbit"
+    },
+    {
+      "path": "public/library/videos/scripting/python-numpy-oregonator-belousov-zhabotinsky-bz-fkn-1972-chemical-spiral-wave-height-field-stage-floor-webxr/screen.mp4",
+      "note": "OBS screen recording per SCREEN-RECORDING-NOTES.md"
+    }
+  ],
+  "cross_references": {
+    "studio_surfaces": [
+      "/tutorials/blender-tutorial-python-numpy-barkley-excitable-medium-spiral-wave-uv-sphere-poi-head-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gray-scott-reaction-diffusion-turing-pattern-height-field-webxr",
+      "/tutorials/blender-tutorial-python-numpy-complex-ginzburg-landau-pde-spiral-turbulence-benjamin-feir-defect-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-kuramoto-sivashinsky-pde-spatiotemporal-chaos-flame-front-height-field-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "title": "Field R J, Körös E, Noyes R M (1972) Oscillations in chemical systems. IV. Limit cycle behavior in a model of a real chemical reaction. JACS 94(25):8649–8664",
+        "url": "https://doi.org/10.1021/ja00780a001",
+        "licence": "PD (>50 years)",
+        "author": "Field R J, Körös E, Noyes R M"
+      },
+      {
+        "title": "Tyson J J, Fife P C (1980) Target waves in a realistic model of the Belousov-Zhabotinskii reaction. J Chem Phys 73(5):2224–2237",
+        "url": "https://doi.org/10.1063/1.440418",
+        "licence": "PD (>40 years)",
+        "author": "Tyson J J, Fife P C"
+      },
+      {
+        "title": "Winfree A T (1991) Varieties of spiral wave behavior: An experimentalist's approach to the theory of excitable media. Chaos 1(3):303–334",
+        "url": "https://doi.org/10.1063/1.165844",
+        "licence": "PD equations (>30 years)",
+        "author": "Winfree A T",
+        "related": "https://github.com/scipy/scipy"
+      }
+    ]
+  }
+}
