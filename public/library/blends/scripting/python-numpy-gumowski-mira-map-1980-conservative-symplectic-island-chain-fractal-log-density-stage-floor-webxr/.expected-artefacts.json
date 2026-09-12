@@ -1,0 +1,59 @@
+{
+  "slug": "python-numpy-gumowski-mira-map-1980-conservative-symplectic-island-chain-fractal-log-density-stage-floor-webxr",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "files": [
+    "blueprint.py",
+    "record.py",
+    "README.md",
+    "SCREEN-RECORDING-NOTES.md",
+    ".expected-artefacts.json",
+    "gumowski_mira_floor.blend",
+    "gumowski_mira_floor.glb",
+    "viewport.mp4",
+    "screen.mp4"
+  ],
+  "generated_on_run": [
+    "gumowski_mira_floor.blend",
+    "gumowski_mira_floor.glb",
+    "viewport.mp4"
+  ],
+  "recorded_manually": [
+    "screen.mp4"
+  ],
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-chirikov-standard-map-kam-breakdown-greene-critical-threshold-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-henon-map-strange-attractor-fractal-basin-poi-webxr",
+      "/tutorials/blender-tutorial-python-numpy-arnolds-cat-map-anosov-diffeomorphism-golden-ratio-torus-chaos-poi-disc-webxr",
+      "/tutorials/blender-tutorial-python-numpy-arnold-tongue-circle-map-mode-locking-poi-disc-webxr",
+      "/tutorials/blender-tutorial-python-numpy-zaslavsky-stochastic-web-kicked-oscillator-qfold-quasicrystal-stage-floor-webxr"
+    ],
+    "external": [
+      {
+        "title": "Gumowski & Mira (1980) Recurrences and Discrete Dynamic Systems",
+        "url": "https://doi.org/10.1007/BFb0089165",
+        "licence": "PD (mathematical equations, >40 yr)",
+        "author": "I. Gumowski, C. Mira"
+      },
+      {
+        "title": "Sprott JC — Elegant Chaos web companion (Gumowski-Mira section)",
+        "url": "https://sprott.physics.wisc.edu/fractals/2d/",
+        "licence": "CC0",
+        "author": "Julien C. Sprott"
+      },
+      {
+        "title": "njanakiev/blender-scripting",
+        "url": "https://github.com/njanakiev/blender-scripting",
+        "licence": "MIT",
+        "author": "Nicolas Janakiev"
+      },
+      {
+        "title": "NumPy User Guide",
+        "url": "https://numpy.org/doc/stable/user/",
+        "licence": "BSD-3-Clause",
+        "author": "NumPy contributors"
+      }
+    ]
+  }
+}
