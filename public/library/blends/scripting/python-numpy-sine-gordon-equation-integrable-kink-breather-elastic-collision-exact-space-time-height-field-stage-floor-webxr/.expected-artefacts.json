@@ -1,0 +1,73 @@
+{
+  "artefacts": [
+    { "path": "sine_gordon_floor.blend", "type": "blend", "note": "Blender scene with four exact-solution shape keys" },
+    { "path": "sine_gordon_floor.glb",   "type": "glb",   "note": "WebXR export, Draco-6, morph targets" },
+    { "path": "blueprint.py",            "type": "script" },
+    { "path": "record.py",               "type": "script" },
+    { "path": "README.md",               "type": "doc" },
+    { "path": "SCREEN-RECORDING-NOTES.md", "type": "doc" }
+  ],
+  "videos": [
+    {
+      "path": "public/library/videos/scripting/python-numpy-sine-gordon-equation-integrable-kink-breather-elastic-collision-exact-space-time-height-field-stage-floor-webxr/viewport.mp4",
+      "note": "Rendered by record.py — camera orbit + shape-key morph cycle"
+    },
+    {
+      "path": "public/library/videos/scripting/python-numpy-sine-gordon-equation-integrable-kink-breather-elastic-collision-exact-space-time-height-field-stage-floor-webxr/screen.mp4",
+      "note": "OBS screen recording per SCREEN-RECORDING-NOTES.md"
+    }
+  ],
+  "cross_references": {
+    "studio_surfaces": [
+      "/tutorials/blender-tutorial-python-numpy-phi4-kink-antikink-collision-resonance-windows-campbell-1983-space-time-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-korteweg-de-vries-1895-soliton-collision-pseudospectral-rk4-space-time-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-dini-surface-pseudosphere-sine-gordon-kink-tractrix-poi-webxr",
+      "/tutorials/blender-tutorial-python-numpy-kadomtsev-petviashvili-kp-ii-1970-exact-web-soliton-hirota-tau-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "title": "Scott AC, Chu FYF, McLaughlin DW (1973) The soliton: A new concept in applied science — Proc. IEEE 61(10):1443-1483",
+        "url": "https://doi.org/10.1109/PROC.1973.9296",
+        "licence": "PD-equations",
+        "author": "Scott AC, Chu FYF, McLaughlin DW",
+        "related": "Survey paper that introduced soliton physics to engineering; reviews sine-Gordon equation and its exact kink, breather and two-soliton solutions"
+      },
+      {
+        "title": "Ablowitz MJ, Kaup DJ, Newell AC, Segur H (1973) Method for Solving the Sine-Gordon Equation — Physical Review Letters 30(25):1262",
+        "url": "https://doi.org/10.1103/PhysRevLett.30.1262",
+        "licence": "PD-equations",
+        "author": "Ablowitz MJ, Kaup DJ, Newell AC, Segur H",
+        "related": "The AKNS paper: establishes the Lax pair for the sine-Gordon equation and derives all N-soliton solutions via inverse scattering"
+      },
+      {
+        "title": "NumPy — BSD-3-Clause",
+        "url": "https://numpy.org/doc/stable/",
+        "licence": "BSD-3-Clause",
+        "author": "NumPy contributors",
+        "related": "Used for meshgrid, arctan, sinh, cosh, clip, outer, broadcast_to vectorised evaluation of exact solutions"
+      }
+    ]
+  },
+  "mesh": {
+    "vertices": 16384,
+    "quads": 16129,
+    "shape_keys": ["Basis", "SK_Breather", "SK_Collision", "SK_TwoKink"],
+    "colour_attribute": "SG_Field",
+    "attribute_domain": "POINT",
+    "attribute_type": "FLOAT_COLOR"
+  },
+  "physics": {
+    "equation": "phi_tt - phi_xx + sin(phi) = 0   V(phi) = 1 - cos(phi)",
+    "solver": "Exact closed-form (no numerical stepping — completely integrable via Lax pair / AKNS inverse scattering)",
+    "grid": "NX=128, NT=128, X in [-12,12], T in [-8,8]",
+    "shape_keys": {
+      "Basis":        "Single kink v=0.65 x0=-4.0  phi_K=4 arctan[exp(gamma(x-vt-x0))] gamma=1/sqrt(1-0.65^2)=1.316",
+      "SK_Breather":  "Stationary breather omega=0.50  phi_B=4 arctan[(beta/omega) sin(omega*t)/cosh(beta*x)] beta=sqrt(1-0.25)=0.866",
+      "SK_Collision": "Kink-antikink head-on v=0.65  phi=4 arctan[v sinh(gamma*x)/cosh(gamma*v*t)]  phase_shift=2/gamma*log(2v)",
+      "SK_TwoKink":   "Two co-propagating kinks v1=0.80 v2=0.30 x01=-7 x02=6  superposition minus 4pi offset"
+    },
+    "integrability": "Lax pair: Zacharov-Shabat system; infinite tower of conserved charges; Hirota tau-function gives N-soliton exact solutions; Backlund transform generates new solutions from known ones",
+    "topological_charge": "Q = (1/4pi) * [phi(+inf,t) - phi(-inf,t)]; kink Q=+1, antikink Q=-1, breather Q=0",
+    "phase_shift_kink_antikink": "Delta = (2/gamma) * log(2v)  (only trace of elastic collision)"
+  }
+}
