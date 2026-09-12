@@ -1,0 +1,57 @@
+{
+  "artefacts": [
+    { "path": "kdv_soliton_floor.blend",  "type": "blend", "note": "Blender scene with shape keys" },
+    { "path": "kdv_soliton_floor.glb",    "type": "glb",   "note": "WebXR export, Draco-6, morph targets" },
+    { "path": "blueprint.py",             "type": "script" },
+    { "path": "record.py",                "type": "script" },
+    { "path": "README.md",                "type": "doc" },
+    { "path": "SCREEN-RECORDING-NOTES.md","type": "doc" }
+  ],
+  "videos": [
+    { "path": "public/library/videos/scripting/python-numpy-korteweg-de-vries-1895-soliton-collision-pseudospectral-rk4-space-time-height-field-stage-floor-webxr/viewport.mp4", "note": "Rendered by record.py" },
+    { "path": "public/library/videos/scripting/python-numpy-korteweg-de-vries-1895-soliton-collision-pseudospectral-rk4-space-time-height-field-stage-floor-webxr/screen.mp4",   "note": "OBS screen recording per SCREEN-RECORDING-NOTES.md" }
+  ],
+  "cross_references": {
+    "studio_surfaces": [
+      "/tutorials/blender-tutorial-python-numpy-kpz-kardar-parisi-zhang-1986-stochastic-surface-growth-universality-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-complex-ginzburg-landau-pde-spiral-turbulence-benjamin-feir-defect-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-kuramoto-sivashinsky-pde-spatiotemporal-chaos-flame-front-height-field-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "title": "Korteweg D J & de Vries G (1895) On the change of form of long waves advancing in a rectangular canal",
+        "url": "https://doi.org/10.1080/14786449508620739",
+        "licence": "PD (1895)",
+        "author": "Korteweg D J & de Vries G"
+      },
+      {
+        "title": "Gardner C S, Greene J M, Kruskal M D, Miura R M (1967) Method for Solving the Korteweg-de Vries Equation",
+        "url": "https://doi.org/10.1103/PhysRevLett.19.1095",
+        "licence": "PD-equations",
+        "author": "Gardner, Greene, Kruskal, Miura"
+      },
+      {
+        "title": "NumPy — BSD-3-Clause",
+        "url": "https://numpy.org/doc/stable/",
+        "licence": "BSD-3-Clause",
+        "author": "NumPy contributors"
+      }
+    ]
+  },
+  "mesh": {
+    "vertices": 16384,
+    "quads": 16129,
+    "shape_keys": ["Basis", "SK_Single", "SK_Three", "SK_Slow"],
+    "colour_attribute": "KdV_Height",
+    "attribute_domain": "POINT",
+    "attribute_type": "FLOAT_COLOR"
+  },
+  "physics": {
+    "equation": "KdV: u_t + 6u u_x + u_xxx = 0",
+    "method": "Fourier pseudospectral RK4 with 2/3 dealiasing",
+    "grid": "N_X=128, L=64, dx=0.5",
+    "time": "T=12, N_steps=600, dt=0.02",
+    "stability": "dt < 2sqrt(2)/k_max3_dealiased = 0.038; factor 1.9 margin"
+  }
+}
