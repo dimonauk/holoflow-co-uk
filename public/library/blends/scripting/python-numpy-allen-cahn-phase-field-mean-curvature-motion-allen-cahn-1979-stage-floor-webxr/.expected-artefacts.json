@@ -1,0 +1,78 @@
+{
+  "blend": "allen_cahn_floor.blend",
+  "glb": "allen_cahn_floor.glb",
+  "videos": ["viewport.mp4", "screen.mp4"],
+  "blender_version": "5.1",
+  "grid": "128x128",
+  "vertices": 16384,
+  "quads": 16129,
+  "shape_keys": ["Basis", "SK_Coarsened", "SK_Fine", "SK_Broad"],
+  "vertex_attributes": ["AC_Phase"],
+  "export": {
+    "draco_level": 6,
+    "texture_format": "WEBP",
+    "export_morph": true,
+    "export_colors": true,
+    "y_up": true
+  },
+  "cross_references": {
+    "studio_articles": [
+      "/articles/holoflow-webxr-stage-floors",
+      "/codex/blender-python-scripting",
+      "/codex/numpy-in-blender"
+    ],
+    "studio_tutorials": [
+      "/tutorials/blender-tutorial-python-numpy-cahn-hilliard-phase-field-spinodal-decomposition-ostwald-ripening-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gray-scott-reaction-diffusion-turing-pattern-height-field-webxr",
+      "/tutorials/blender-tutorial-python-numpy-complex-ginzburg-landau-pde-spiral-turbulence-benjamin-feir-defect-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-swift-hohenberg-pde-hexagonal-rolls-benard-convection-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "title": "A microscopic theory for antiphase boundary motion and its application to antiphase domain coarsening",
+        "authors": "Allen SM, Cahn JW",
+        "year": 1979,
+        "journal": "Acta Metallurgica",
+        "volume": 27,
+        "pages": "1085-1095",
+        "doi": "10.1016/0001-6160(79)90196-2",
+        "url": "https://doi.org/10.1016/0001-6160(79)90196-2",
+        "licence": "Mathematical equations public domain",
+        "related_projects": [
+          "https://github.com/orgs/numpy/repositories",
+          "https://github.com/scipy/scipy"
+        ]
+      },
+      {
+        "title": "Exponential time differencing for stiff systems",
+        "authors": "Cox SM, Matthews PC",
+        "year": 2002,
+        "journal": "Journal of Computational Physics",
+        "volume": 176,
+        "pages": "430-455",
+        "doi": "10.1006/jcph.2002.6995",
+        "url": "https://doi.org/10.1006/jcph.2002.6995",
+        "licence": "Mathematical method — equations public domain",
+        "related_projects": [
+          "https://github.com/spectralDNS/shenfun",
+          "https://github.com/martialbriand/ETDRKtools"
+        ]
+      },
+      {
+        "title": "Array programming with NumPy",
+        "authors": "Harris CR et al.",
+        "year": 2020,
+        "journal": "Nature",
+        "volume": 585,
+        "pages": "357-362",
+        "doi": "10.1038/s41586-020-2649-2",
+        "url": "https://numpy.org",
+        "licence": "BSD-3-Clause",
+        "related_projects": [
+          "https://github.com/scipy/scipy",
+          "https://github.com/cupy/cupy"
+        ]
+      }
+    ]
+  }
+}
