@@ -1,0 +1,70 @@
+{
+  "artefacts": [
+    { "path": "phi4_kink_floor.blend", "type": "blend", "note": "Blender scene with four shape keys" },
+    { "path": "phi4_kink_floor.glb",   "type": "glb",   "note": "WebXR export, Draco-6, morph targets" },
+    { "path": "blueprint.py",          "type": "script" },
+    { "path": "record.py",             "type": "script" },
+    { "path": "README.md",             "type": "doc" },
+    { "path": "SCREEN-RECORDING-NOTES.md", "type": "doc" }
+  ],
+  "videos": [
+    {
+      "path": "public/library/videos/scripting/python-numpy-phi4-kink-antikink-collision-resonance-windows-campbell-1983-space-time-height-field-stage-floor-webxr/viewport.mp4",
+      "note": "Rendered by record.py — camera orbit + shape-key cycle"
+    },
+    {
+      "path": "public/library/videos/scripting/python-numpy-phi4-kink-antikink-collision-resonance-windows-campbell-1983-space-time-height-field-stage-floor-webxr/screen.mp4",
+      "note": "OBS screen recording per SCREEN-RECORDING-NOTES.md"
+    }
+  ],
+  "cross_references": {
+    "studio_surfaces": [
+      "/tutorials/blender-tutorial-python-numpy-korteweg-de-vries-1895-soliton-collision-pseudospectral-rk4-space-time-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-burgers-equation-1948-cole-hopf-exact-shock-formation-viscous-regularisation-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-dini-surface-pseudosphere-sine-gordon-kink-tractrix-poi-webxr",
+      "/tutorials/blender-tutorial-python-numpy-oregonator-belousov-zhabotinsky-bz-fkn-1972-chemical-spiral-wave-height-field-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "title": "Campbell DK, Schonfeld JF, Wingate CA (1983) Resonance structure in kink-antikink interactions in phi4 theory — Physica D 9(1-2):1-32",
+        "url": "https://doi.org/10.1016/0167-2789(83)90289-0",
+        "licence": "PD-equations",
+        "author": "Campbell DK, Schonfeld JF, Wingate CA",
+        "related": "Peyrard M & Campbell DK (1983) Kink-antikink interactions in the double sine-Gordon equation — same resonance mechanism, related journal volume"
+      },
+      {
+        "title": "Dorey P, Mersh K, Romanczukiewicz T, Sutcliffe P (2011) Kink-Antikink Scattering in phi4 Theory and One-Dimensional Magnets — arXiv:1110.2378",
+        "url": "https://arxiv.org/abs/1110.2378",
+        "licence": "arXiv non-exclusive (open access)",
+        "author": "Dorey P, Mersh K, Romanczukiewicz T, Sutcliffe P",
+        "related": "Manton N & Sutcliffe P, Topological Solitons (2004) Cambridge — canonical monograph"
+      },
+      {
+        "title": "NumPy — BSD-3-Clause",
+        "url": "https://numpy.org/doc/stable/",
+        "licence": "BSD-3-Clause",
+        "author": "NumPy contributors",
+        "related": "SciPy BSD-3-Clause github.com/scipy/scipy"
+      }
+    ]
+  },
+  "mesh": {
+    "vertices": 16384,
+    "quads": 16129,
+    "shape_keys": ["Basis", "SK_TwoBounce", "SK_Critical", "SK_Escape"],
+    "colour_attribute": "Phi4_Field",
+    "attribute_domain": "POINT",
+    "attribute_type": "FLOAT_COLOR"
+  },
+  "physics": {
+    "equation": "phi_tt = phi_xx + phi - phi^3   V(phi) = (1/4)(1-phi^2)^2",
+    "solver": "Leapfrog (Stormer-Verlet), 2nd-order symplectic",
+    "grid": "N_X=128, L=12, DX=0.09375",
+    "time": "T_FINAL=30, N_T=128, DT=0.04, N_STEPS=750",
+    "CFL": "DT/DX = 0.04/0.09375 = 0.427 < 1",
+    "kink_width": "sqrt(2) ~= 1.414 physical units",
+    "critical_velocity": "v_c ~= 0.2598 (Campbell et al 1983)",
+    "resonance_windows": "v=0.193 two-bounce window; Fibonacci-structure near v_c",
+    "bion_frequency": "omega_bion ~= sqrt(8)/3 ~= 0.943 (Lorentz-contracted mass mode)"
+  }
+}
