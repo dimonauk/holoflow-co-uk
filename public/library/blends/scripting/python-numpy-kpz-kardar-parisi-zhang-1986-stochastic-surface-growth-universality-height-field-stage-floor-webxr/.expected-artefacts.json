@@ -1,0 +1,53 @@
+{
+  "slug": "python-numpy-kpz-kardar-parisi-zhang-1986-stochastic-surface-growth-universality-height-field-stage-floor-webxr",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "files": [
+    "blueprint.py",
+    "record.py",
+    "README.md",
+    "SCREEN-RECORDING-NOTES.md",
+    ".expected-artefacts.json",
+    "kpz_floor.blend",
+    "kpz_floor.glb",
+    "viewport.mp4",
+    "screen.mp4"
+  ],
+  "generated_on_run": [
+    "kpz_floor.blend",
+    "kpz_floor.glb",
+    "viewport.mp4"
+  ],
+  "recorded_manually": [
+    "screen.mp4"
+  ],
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-cahn-hilliard-phase-field-spinodal-decomposition-ostwald-ripening-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-swift-hohenberg-pde-hexagonal-rolls-benard-convection-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ising-model-metropolis-monte-carlo-phase-transition-critical-height-field-webxr",
+      "/tutorials/blender-tutorial-python-numpy-complex-ginzburg-landau-pde-spiral-turbulence-benjamin-feir-defect-height-field-stage-floor-webxr"
+    ],
+    "external": [
+      {
+        "title": "Kardar M, Parisi G, Zhang Y-C (1986) Dynamic Scaling of Growing Interfaces. PRL 56(9):889",
+        "url": "https://doi.org/10.1103/PhysRevLett.56.889",
+        "licence": "PD (equations >35 yr)",
+        "author": "Mehran Kardar, Giorgio Parisi, Yi-Cheng Zhang"
+      },
+      {
+        "title": "Edwards SF, Wilkinson DR (1982) The surface statistics of a granular aggregate. Proc R Soc Lond A 381:17",
+        "url": "https://doi.org/10.1098/rspa.1982.0056",
+        "licence": "PD (equations >40 yr)",
+        "author": "Sam Edwards, David Wilkinson"
+      },
+      {
+        "title": "NumPy User Guide — BSD-3-Clause",
+        "url": "https://numpy.org/doc/stable/user/",
+        "licence": "BSD-3-Clause",
+        "author": "NumPy contributors"
+      }
+    ]
+  }
+}
