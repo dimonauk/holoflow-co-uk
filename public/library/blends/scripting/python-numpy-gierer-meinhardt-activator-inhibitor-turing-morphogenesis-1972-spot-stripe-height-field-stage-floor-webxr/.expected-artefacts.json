@@ -1,0 +1,50 @@
+{
+  "artefacts": [
+    { "path": "gm_activator_floor.blend", "type": "blend", "note": "Blender scene with 4 shape keys" },
+    { "path": "gm_activator_floor.glb",   "type": "glb",   "note": "WebXR export, Draco-6, morph targets, WebP" },
+    { "path": "blueprint.py",              "type": "script" },
+    { "path": "record.py",                 "type": "script" },
+    { "path": "README.md",                 "type": "doc" },
+    { "path": "SCREEN-RECORDING-NOTES.md", "type": "doc" }
+  ],
+  "videos": [
+    {
+      "path": "public/library/videos/scripting/python-numpy-gierer-meinhardt-activator-inhibitor-turing-morphogenesis-1972-spot-stripe-height-field-stage-floor-webxr/viewport.mp4",
+      "note": "Rendered by record.py — shape key morph Basis→SK_Labyrinthine→SK_Dense + camera orbit"
+    },
+    {
+      "path": "public/library/videos/scripting/python-numpy-gierer-meinhardt-activator-inhibitor-turing-morphogenesis-1972-spot-stripe-height-field-stage-floor-webxr/screen.mp4",
+      "note": "OBS screen recording per SCREEN-RECORDING-NOTES.md"
+    }
+  ],
+  "cross_references": {
+    "studio_surfaces": [
+      "/tutorials/blender-tutorial-python-numpy-oregonator-belousov-zhabotinsky-bz-fkn-1972-chemical-spiral-wave-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gray-scott-reaction-diffusion-turing-pattern-height-field-webxr",
+      "/tutorials/blender-tutorial-python-numpy-brusselator-prigogine-lefever-1968-turing-instability-hopf-dissipative-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "title": "Gierer A, Meinhardt H (1972) A theory of biological pattern formation. Kybernetik 12(1):30–39",
+        "url": "https://doi.org/10.1007/BF00289234",
+        "licence": "PD (>50 years)",
+        "author": "Gierer A, Meinhardt H"
+      },
+      {
+        "title": "Turing A M (1952) The chemical basis of morphogenesis. Phil Trans R Soc B 237:37–72",
+        "url": "https://royalsocietypublishing.org/doi/10.1098/rstb.1952.0012",
+        "licence": "PD (>70 years)",
+        "author": "Turing A M",
+        "related": "https://github.com/numpy/numpy"
+      },
+      {
+        "title": "Koch A J, Meinhardt H (1994) Biological pattern formation: from basic mechanisms to complex structures. Rev Mod Phys 66(4):1481–1507",
+        "url": "https://doi.org/10.1103/RevModPhys.66.1481",
+        "licence": "PD (equations)",
+        "author": "Koch A J, Meinhardt H",
+        "related": "https://github.com/scipy/scipy"
+      }
+    ]
+  }
+}
