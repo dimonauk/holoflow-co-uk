@@ -1,0 +1,53 @@
+{
+  "slug": "python-numpy-talbot-effect-henry-fox-talbot-1836-self-imaging-diffraction-grating-fractional-talbot-gauss-sum-height-field-stage-floor-webxr",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "files": [
+    "blueprint.py",
+    "record.py",
+    "README.md",
+    "SCREEN-RECORDING-NOTES.md",
+    ".expected-artefacts.json",
+    "talbot_floor.blend",
+    "talbot_floor.glb",
+    "viewport.mp4",
+    "screen.mp4"
+  ],
+  "generated_on_run": [
+    "talbot_floor.blend",
+    "talbot_floor.glb",
+    "viewport.mp4"
+  ],
+  "recorded_manually": [
+    "screen.mp4"
+  ],
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-fraunhofer-diffraction-fft-aperture-psf-airy-disk-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-scipy-cornu-spiral-fresnel-clothoid-linear-curvature-bishop-tube-poi-webxr",
+      "/tutorials/blender-tutorial-python-numpy-tdse-split-operator-fft-double-slit-quantum-interference-webxr",
+      "/tutorials/blender-tutorial-python-numpy-laguerre-gaussian-optical-vortex-allen-1992-orbital-angular-momentum-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gumowski-mira-map-1980-conservative-symplectic-island-chain-fractal-log-density-stage-floor-webxr"
+    ],
+    "external": [
+      {
+        "title": "Talbot HF (1836) Facts relating to optical science. No. IV",
+        "url": "https://doi.org/10.1080/14786443608649032",
+        "licence": "PD (>170 yr)",
+        "author": "Henry Fox Talbot"
+      },
+      {
+        "title": "Berry MV & Klein S (1996) Integer, fractional and fractal Talbot effects",
+        "url": "https://doi.org/10.1080/09500349614552281",
+        "licence": "PD (equations, >25 yr)",
+        "author": "Michael V. Berry, Shmuel Klein"
+      },
+      {
+        "title": "NumPy User Guide",
+        "url": "https://numpy.org/doc/stable/user/",
+        "licence": "BSD-3-Clause",
+        "author": "NumPy contributors"
+      }
+    ]
+  }
+}

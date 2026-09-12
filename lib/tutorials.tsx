@@ -704,6 +704,7 @@ import { entry as blenderTutorialPythonNumpyLaguerreGaussianOpticalVortexAllen19
 import { entry as blenderTutorialPythonNumpyAllenCahnPhaseFieldMeanCurvatureMotionAllenCahn1979StageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpyGrossPitaevskiiBecRotatingVortexLatticeAbrikosovImaginaryTimeStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-gross-pitaevskii-bec-rotating-vortex-lattice-abrikosov-imaginary-time-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpyGumowskiMiraMap1980ConservativeSymplecticIslandChainFractalLogDensityStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-gumowski-mira-map-1980-conservative-symplectic-island-chain-fractal-log-density-stage-floor-webxr";
+import { entry as blenderTutorialPythonNumpyTalbotEffectHenryFoxTalbot1836SelfImagingDiffractionGratingFractionalTalbotGaussSumHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-talbot-effect-henry-fox-talbot-1836-self-imaging-diffraction-grating-fractional-talbot-gauss-sum-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1415,6 +1416,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyAllenCahnPhaseFieldMeanCurvatureMotionAllenCahn1979StageFloorWebxrEntry,
   blenderTutorialPythonNumpyGrossPitaevskiiBecRotatingVortexLatticeAbrikosovImaginaryTimeStageFloorWebxrEntry,
   blenderTutorialPythonNumpyGumowskiMiraMap1980ConservativeSymplecticIslandChainFractalLogDensityStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyTalbotEffectHenryFoxTalbot1836SelfImagingDiffractionGratingFractionalTalbotGaussSumHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);
