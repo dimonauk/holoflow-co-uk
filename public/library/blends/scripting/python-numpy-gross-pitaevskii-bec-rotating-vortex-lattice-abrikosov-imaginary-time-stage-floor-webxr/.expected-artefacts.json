@@ -1,0 +1,81 @@
+{
+  "blend": "gpe_bec_vortex.blend",
+  "glb": "gpe_bec_vortex.glb",
+  "videos": ["viewport.mp4", "screen.mp4"],
+  "blender_version": "5.1",
+  "grid": "128x128",
+  "vertices": 16384,
+  "quads": 16129,
+  "shape_keys": ["Basis", "SK_Single", "SK_Hex7", "SK_Hex19"],
+  "vertex_attributes": ["GPE_Density"],
+  "export": {
+    "draco_level": 6,
+    "texture_format": "WEBP",
+    "export_morph": true,
+    "export_colors": true,
+    "y_up": true
+  },
+  "cross_references": {
+    "studio_articles": [
+      "/articles/holoflow-webxr-stage-floors",
+      "/codex/blender-python-scripting",
+      "/codex/numpy-in-blender"
+    ],
+    "studio_tutorials": [
+      "/tutorials/blender-tutorial-python-numpy-complex-ginzburg-landau-pde-spiral-turbulence-benjamin-feir-defect-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-cahn-hilliard-phase-field-spinodal-decomposition-ostwald-ripening-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-tdse-split-operator-fft-double-slit-quantum-interference-webxr",
+      "/tutorials/blender-tutorial-python-numpy-laguerre-gaussian-optical-vortex-allen-1992-orbital-angular-momentum-height-field-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "title": "Structure of a Quantised Vortex in Boson Systems",
+        "authors": "E.P. Gross",
+        "year": 1961,
+        "journal": "Il Nuovo Cimento",
+        "volume": "20(3)",
+        "pages": "454-477",
+        "doi": "10.1007/BF02731494",
+        "url": "https://doi.org/10.1007/BF02731494",
+        "licence": "Public Domain (>65 yr, pre-1927 threshold does not apply; mathematical equations PD)",
+        "notes": "Original derivation of the GPE for quantum vortices. The mean-field equation is uncopyrightable mathematical content.",
+        "related_projects": [
+          "https://arxiv.org/abs/cond-mat/9806038",
+          "https://github.com/quantumtinkerer"
+        ]
+      },
+      {
+        "title": "Theory of Bose-Einstein Condensation in Trapped Gases",
+        "authors": "S. Dalfovo, S. Giorgini, L.P. Pitaevskii, S. Stringari",
+        "year": 1999,
+        "journal": "Reviews of Modern Physics",
+        "volume": 71,
+        "pages": "463-512",
+        "doi": "10.1103/RevModPhys.71.463",
+        "url": "https://arxiv.org/abs/cond-mat/9806038",
+        "licence": "arXiv open access (CC BY-compatible)",
+        "notes": "Comprehensive review; §IV.B describes imaginary-time propagation for finding vortex lattice ground states.",
+        "related_projects": [
+          "https://arxiv.org/abs/cond-mat/0501174",
+          "https://github.com/scipy/scipy"
+        ]
+      },
+      {
+        "title": "Array programming with NumPy",
+        "authors": "C.R. Harris et al.",
+        "year": 2020,
+        "journal": "Nature",
+        "volume": 585,
+        "pages": "357-362",
+        "doi": "10.1038/s41586-020-2649-2",
+        "url": "https://numpy.org",
+        "licence": "BSD-3-Clause",
+        "related_projects": [
+          "https://github.com/scipy/scipy",
+          "https://github.com/cupy/cupy"
+        ]
+      }
+    ]
+  }
+}

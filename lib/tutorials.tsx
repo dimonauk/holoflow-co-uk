@@ -702,6 +702,7 @@ import { entry as blenderTutorialPythonNumpyCahnHilliardPhaseFieldSpiniodalDecom
 import { entry as blenderTutorialPythonNumpyComplexGinzburgLandauPdeSpiralTurbulenceBenjaminFeirDefectHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-complex-ginzburg-landau-pde-spiral-turbulence-benjamin-feir-defect-height-field-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpyLaguerreGaussianOpticalVortexAllen1992OrbitalAngularMomentumHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-laguerre-gaussian-optical-vortex-allen-1992-orbital-angular-momentum-height-field-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpyAllenCahnPhaseFieldMeanCurvatureMotionAllenCahn1979StageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr";
+import { entry as blenderTutorialPythonNumpyGrossPitaevskiiBecRotatingVortexLatticeAbrikosovImaginaryTimeStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-gross-pitaevskii-bec-rotating-vortex-lattice-abrikosov-imaginary-time-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1411,6 +1412,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyComplexGinzburgLandauPdeSpiralTurbulenceBenjaminFeirDefectHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyLaguerreGaussianOpticalVortexAllen1992OrbitalAngularMomentumHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyAllenCahnPhaseFieldMeanCurvatureMotionAllenCahn1979StageFloorWebxrEntry,
+  blenderTutorialPythonNumpyGrossPitaevskiiBecRotatingVortexLatticeAbrikosovImaginaryTimeStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

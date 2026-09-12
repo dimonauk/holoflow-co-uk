@@ -64,7 +64,7 @@ function Body() {
           NLA track tutorial
         </Link>
         ). Outside references:{" "}
-        <
+        <a
           href="https://docs.blender.org/api/5.1/bpy.types.KeyingSet.html"
           className={lk}
           target="_blank"
