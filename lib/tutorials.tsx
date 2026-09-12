@@ -703,6 +703,7 @@ import { entry as blenderTutorialPythonNumpyComplexGinzburgLandauPdeSpiralTurbul
 import { entry as blenderTutorialPythonNumpyLaguerreGaussianOpticalVortexAllen1992OrbitalAngularMomentumHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-laguerre-gaussian-optical-vortex-allen-1992-orbital-angular-momentum-height-field-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpyAllenCahnPhaseFieldMeanCurvatureMotionAllenCahn1979StageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpyGrossPitaevskiiBecRotatingVortexLatticeAbrikosovImaginaryTimeStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-gross-pitaevskii-bec-rotating-vortex-lattice-abrikosov-imaginary-time-stage-floor-webxr";
+import { entry as blenderTutorialPythonNumpyKpzKardarParisiZhang1986StochasticSurfaceGrowthKpzUniversalityClassHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-kpz-kardar-parisi-zhang-1986-stochastic-surface-growth-kpz-universality-class-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1413,6 +1414,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyLaguerreGaussianOpticalVortexAllen1992OrbitalAngularMomentumHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyAllenCahnPhaseFieldMeanCurvatureMotionAllenCahn1979StageFloorWebxrEntry,
   blenderTutorialPythonNumpyGrossPitaevskiiBecRotatingVortexLatticeAbrikosovImaginaryTimeStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyKpzKardarParisiZhang1986StochasticSurfaceGrowthKpzUniversalityClassHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);
