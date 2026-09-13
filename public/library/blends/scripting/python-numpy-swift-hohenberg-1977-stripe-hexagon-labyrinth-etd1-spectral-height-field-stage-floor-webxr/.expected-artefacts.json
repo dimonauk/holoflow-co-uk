@@ -1,0 +1,50 @@
+{
+  "slug": "python-numpy-swift-hohenberg-1977-stripe-hexagon-labyrinth-etd1-spectral-height-field-stage-floor-webxr",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "outputs": [
+    "sh_pattern_floor.blend",
+    "sh_pattern_floor.glb"
+  ],
+  "videos": [
+    "public/library/videos/scripting/python-numpy-swift-hohenberg-1977-stripe-hexagon-labyrinth-etd1-spectral-height-field-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-swift-hohenberg-1977-stripe-hexagon-labyrinth-etd1-spectral-height-field-stage-floor-webxr/screen.mp4"
+  ],
+  "mesh": {
+    "verts": 16384,
+    "quads": 16129,
+    "shape_keys": ["Basis", "SK_Hex", "SK_Labyrinth", "SK_Inverted"],
+    "color_attribute": "SH_Order",
+    "color_type": "FLOAT_COLOR",
+    "color_domain": "POINT"
+  },
+  "glb": {
+    "draco_level": 6,
+    "export_yup": true,
+    "export_morph": true,
+    "export_colors": true,
+    "image_format": "WEBP"
+  },
+  "cross_references": {
+    "studio_tutorials": [
+      "/tutorials/blender-tutorial-python-numpy-cahn-hilliard-phase-field-spinodal-decomposition-ostwald-ripening-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gierer-meinhardt-activator-inhibitor-turing-morphogenesis-1972-spot-stripe-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-gn-simulation-zone-reaction-diffusion-turing"
+    ],
+    "outside_sources": [
+      {
+        "citation": "Swift J, Hohenberg PC (1977). Hydrodynamic fluctuations at the convective instability. Phys Rev A 15(1):319-328.",
+        "url": "https://doi.org/10.1103/PhysRevA.15.319",
+        "licence": "PD (>50 years)",
+        "note": "Original derivation of the SHE from Navier-Stokes near-onset expansion"
+      },
+      {
+        "citation": "Cox SM, Matthews PC (2002). Exponential time differencing for stiff systems. J Comput Phys 176(2):430-455.",
+        "url": "https://doi.org/10.1006/jcph.2002.6995",
+        "licence": "PD (equations/method)",
+        "note": "ETD1 and ETD2RK schemes used in blueprint.py"
+      }
+    ]
+  }
+}
