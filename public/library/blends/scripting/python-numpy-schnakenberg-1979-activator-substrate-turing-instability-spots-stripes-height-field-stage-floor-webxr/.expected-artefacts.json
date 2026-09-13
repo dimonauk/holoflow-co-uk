@@ -1,0 +1,53 @@
+{
+  "slug": "python-numpy-schnakenberg-1979-activator-substrate-turing-instability-spots-stripes-height-field-stage-floor-webxr",
+  "topic": "scripting",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "artefacts": [
+    "schnakenberg_turing_floor.blend",
+    "schnakenberg_turing_floor.glb",
+    "blueprint.py",
+    "record.py",
+    "README.md",
+    "SCREEN-RECORDING-NOTES.md",
+    ".expected-artefacts.json"
+  ],
+  "videos": [
+    "public/library/videos/scripting/python-numpy-schnakenberg-1979-activator-substrate-turing-instability-spots-stripes-height-field-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-schnakenberg-1979-activator-substrate-turing-instability-spots-stripes-height-field-stage-floor-webxr/screen.mp4"
+  ],
+  "cross_references": {
+    "studio_tutorials": [
+      "/tutorials/blender-tutorial-python-numpy-gierer-meinhardt-activator-inhibitor-turing-morphogenesis-1972-spot-stripe-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-brusselator-prigogine-lefever-1968-turing-instability-hopf-dissipative-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-cahn-hilliard-phase-field-spinodal-decomposition-ostwald-ripening-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gray-scott-reaction-diffusion-spot-stripe-webxr",
+      "/tutorials/blender-tutorial-shape-keys-morph-targets"
+    ],
+    "studio_codex": [],
+    "studio_articles": [],
+    "outside_sources": [
+      {
+        "title": "Schnakenberg J. (1979) — Simple chemical reaction systems with limit cycle behaviour — J. Theor. Biol. 81:389–400",
+        "url": "https://doi.org/10.1016/0022-5193(79)90079-3",
+        "licence": "PD",
+        "author": "Johannes Schnakenberg",
+        "related": "https://github.com/numpy/numpy"
+      },
+      {
+        "title": "Murray J. D. (2003) — Mathematical Biology II: Spatial Models and Biomedical Applications §2.3. Springer.",
+        "url": "https://link.springer.com/book/10.1007/b98869",
+        "licence": "PD-equations",
+        "author": "James D. Murray",
+        "related": "https://github.com/scipy/scipy"
+      },
+      {
+        "title": "Cox S. M., Matthews P. C. (2002) — Exponential time differencing for stiff systems — J. Comput. Phys. 176(2):430–455",
+        "url": "https://doi.org/10.1006/jcph.2002.6995",
+        "licence": "PD",
+        "author": "Cox & Matthews",
+        "related": "https://github.com/numpy/numpy"
+      }
+    ]
+  }
+}
