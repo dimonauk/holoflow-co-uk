@@ -715,6 +715,7 @@ import { entry as blenderTutorialPythonNumpyGiererMeinhardtActivatorInhibitorTur
 import { entry as blenderTutorialPythonNumpySwiftHohenberg1977StripeHexagonLabyrinthEtd1SpectralHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-swift-hohenberg-1977-stripe-hexagon-labyrinth-etd1-spectral-height-field-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpyFitzHughNagumo1961ExcitableMediaTriggerWaveSpiralHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-fitzhugh-nagumo-1961-excitable-media-trigger-wave-spiral-height-field-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpySchnakenberg1979ActivatorSubstrateTuringInstabilitySpotsStripesHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-schnakenberg-1979-activator-substrate-turing-instability-spots-stripes-height-field-stage-floor-webxr";
+import { blenderTutorialPythonNumpyFisherKpp1937KolmogorovPetrovskyPiskunovPulledWaveBistableAlleeEtd1SpectralHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-fisher-kpp-1937-kolmogorov-petrovsky-piskunov-pulled-wave-bistable-allee-etd1-spectral-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1437,6 +1438,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpySwiftHohenberg1977StripeHexagonLabyrinthEtd1SpectralHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyFitzHughNagumo1961ExcitableMediaTriggerWaveSpiralHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpySchnakenberg1979ActivatorSubstrateTuringInstabilitySpotsStripesHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyFisherKpp1937KolmogorovPetrovskyPiskunovPulledWaveBistableAlleeEtd1SpectralHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

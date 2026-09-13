@@ -1,0 +1,53 @@
+{
+  "slug": "python-numpy-fisher-kpp-1937-kolmogorov-petrovsky-piskunov-pulled-wave-bistable-allee-etd1-spectral-height-field-stage-floor-webxr",
+  "topic": "scripting",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "artefacts": [
+    "fisher_kpp_floor.blend",
+    "fisher_kpp_floor.glb",
+    "blueprint.py",
+    "record.py",
+    "README.md",
+    "SCREEN-RECORDING-NOTES.md",
+    ".expected-artefacts.json"
+  ],
+  "videos": [
+    "public/library/videos/scripting/python-numpy-fisher-kpp-1937-kolmogorov-petrovsky-piskunov-pulled-wave-bistable-allee-etd1-spectral-height-field-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-fisher-kpp-1937-kolmogorov-petrovsky-piskunov-pulled-wave-bistable-allee-etd1-spectral-height-field-stage-floor-webxr/screen.mp4"
+  ],
+  "cross_references": {
+    "studio_tutorials": [
+      "/tutorials/blender-tutorial-python-numpy-schnakenberg-1979-activator-substrate-turing-instability-spots-stripes-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-fitzhugh-nagumo-1961-excitable-media-trigger-wave-spiral-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gierer-meinhardt-activator-inhibitor-turing-morphogenesis-1972-spot-stripe-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr",
+      "/tutorials/blender-tutorial-shape-keys-morph-targets"
+    ],
+    "studio_codex": [],
+    "studio_articles": [],
+    "outside_sources": [
+      {
+        "title": "Fisher R A (1937) — The wave of advance of advantageous genes — Ann. Eugenics 7(4):355–369",
+        "url": "https://doi.org/10.1111/j.1469-1809.1937.tb02153.x",
+        "licence": "PD",
+        "author": "Ronald A. Fisher",
+        "related": "https://github.com/numpy/numpy"
+      },
+      {
+        "title": "Kolmogorov A N, Petrovsky I G, Piskunov N S (1937) — Diffusion equation with biological increase — Bull. Univ. Moscow Ser. Int. A 1(6):1–25",
+        "url": "https://www.semanticscholar.org/paper/Study-of-the-Diffusion-Equation-with-Growth-of-the-Kolmogorov-Petrovsky/6b88b41b6fd5e7aaafb45fa17a46b5e48b3c0e1",
+        "licence": "PD",
+        "author": "Kolmogorov, Petrovsky, Piskunov",
+        "related": "https://github.com/scipy/scipy"
+      },
+      {
+        "title": "Cox S M, Matthews P C (2002) — Exponential time differencing for stiff systems — J. Comput. Phys. 176(2):430–455",
+        "url": "https://doi.org/10.1006/jcph.2002.6995",
+        "licence": "PD",
+        "author": "Cox & Matthews",
+        "related": "https://github.com/numpy/numpy"
+      }
+    ]
+  }
+}
