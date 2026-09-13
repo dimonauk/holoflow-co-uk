@@ -1,0 +1,52 @@
+{
+  "slug": "python-numpy-fitzhugh-nagumo-1961-excitable-media-trigger-wave-spiral-height-field-stage-floor-webxr",
+  "topic": "scripting",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "artefacts": [
+    "fhn_excitable.glb",
+    "blueprint.py",
+    "record.py",
+    "README.md",
+    "SCREEN-RECORDING-NOTES.md",
+    ".expected-artefacts.json"
+  ],
+  "videos": [
+    "public/library/videos/scripting/python-numpy-fitzhugh-nagumo-1961-excitable-media-trigger-wave-spiral-height-field-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-fitzhugh-nagumo-1961-excitable-media-trigger-wave-spiral-height-field-stage-floor-webxr/screen.mp4"
+  ],
+  "cross_references": {
+    "studio_tutorials": [
+      "/tutorials/blender-tutorial-gn-simulation-zone-fitzhugh-nagumo-excitable-medium-spiral-reentry-poi",
+      "/tutorials/blender-tutorial-python-numpy-oregonator-belousov-zhabotinsky-bz-fkn-1972-chemical-spiral-wave-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gierer-meinhardt-activator-inhibitor-turing-morphogenesis-1972-spot-stripe-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gray-scott-reaction-diffusion-spot-stripe-webxr",
+      "/tutorials/blender-tutorial-shape-keys-morph-targets"
+    ],
+    "studio_codex": [],
+    "studio_articles": [],
+    "outside_sources": [
+      {
+        "title": "FitzHugh R. (1961) — Impulses and physiological states in theoretical models of nerve membrane — Biophys. J. 1(6):445-466",
+        "url": "https://doi.org/10.1016/S0006-3495(61)86902-6",
+        "licence": "PD",
+        "author": "Richard FitzHugh",
+        "related": "https://github.com/numpy/numpy"
+      },
+      {
+        "title": "Barkley D. (1991) — A model for fast computer simulation of waves in excitable media — Physica D 49:61-70",
+        "url": "https://doi.org/10.1016/0167-2789(91)90194-E",
+        "licence": "PD",
+        "author": "Dwight Barkley",
+        "related": "https://github.com/scipy/scipy"
+      },
+      {
+        "title": "Cox S. M., Matthews P. C. (2002) — Exponential time differencing for stiff systems — J. Comput. Phys. 176(2):430-455",
+        "url": "https://doi.org/10.1006/jcph.2002.6995",
+        "licence": "PD",
+        "author": "Cox & Matthews",
+        "related": "https://github.com/numpy/numpy"
+      }
+    ]
+  }
+}

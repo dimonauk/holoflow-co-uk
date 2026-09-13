@@ -713,6 +713,7 @@ import { entry as blenderTutorialPythonNumpyBurgersEquation1948ColeHopfExactShoc
 import { entry as blenderTutorialPythonNumpyPhi4KinkAntikinkCollisionResonanceWindowsCampbell1983SpaceTimeHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-phi4-kink-antikink-collision-resonance-windows-campbell-1983-space-time-height-field-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpyGiererMeinhardtActivatorInhibitorTuringMorphogenesis1972SpotStripeHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-gierer-meinhardt-activator-inhibitor-turing-morphogenesis-1972-spot-stripe-height-field-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpySwiftHohenberg1977StripeHexagonLabyrinthEtd1SpectralHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-swift-hohenberg-1977-stripe-hexagon-labyrinth-etd1-spectral-height-field-stage-floor-webxr";
+import { entry as blenderTutorialPythonNumpyFitzHughNagumo1961ExcitableMediaTriggerWaveSpiralHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-fitzhugh-nagumo-1961-excitable-media-trigger-wave-spiral-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1433,6 +1434,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyPhi4KinkAntikinkCollisionResonanceWindowsCampbell1983SpaceTimeHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyGiererMeinhardtActivatorInhibitorTuringMorphogenesis1972SpotStripeHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpySwiftHohenberg1977StripeHexagonLabyrinthEtd1SpectralHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyFitzHughNagumo1961ExcitableMediaTriggerWaveSpiralHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);
