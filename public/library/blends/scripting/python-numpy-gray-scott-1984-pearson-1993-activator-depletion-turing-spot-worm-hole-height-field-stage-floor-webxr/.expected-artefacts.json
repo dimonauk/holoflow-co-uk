@@ -1,0 +1,96 @@
+{
+  "blend": "gray_scott_floor.blend",
+  "glb": "gray_scott_floor.glb",
+  "videos": ["viewport.mp4", "screen.mp4"],
+  "blender_version": "5.1",
+  "grid": "128x128",
+  "vertices": 16384,
+  "quads": 16129,
+  "shape_keys": ["Basis", "SK_Worm", "SK_Hole", "SK_Mitosis"],
+  "vertex_attributes": ["GS_V"],
+  "pearson_regions": {
+    "Basis":     { "F": 0.037, "k": 0.060, "class": "ε", "pattern": "isolated spots" },
+    "SK_Worm":   { "F": 0.060, "k": 0.062, "class": "η", "pattern": "labyrinthine worms" },
+    "SK_Hole":   { "F": 0.039, "k": 0.058, "class": "ζ", "pattern": "holes in active background" },
+    "SK_Mitosis":{ "F": 0.028, "k": 0.054, "class": "δ", "pattern": "self-replicating spots" }
+  },
+  "export": {
+    "draco_level": 6,
+    "texture_format": "WEBP",
+    "export_morph": true,
+    "export_colors": true,
+    "y_up": true
+  },
+  "cross_references": {
+    "studio_tutorials": [
+      "/tutorials/blender-tutorial-python-numpy-schnakenberg-1979-activator-substrate-turing-instability-spots-stripes-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gierer-meinhardt-activator-inhibitor-turing-morphogenesis-1972-spot-stripe-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-fitzhugh-nagumo-1961-excitable-media-trigger-wave-spiral-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-oregonator-belousov-zhabotinsky-bz-fkn-1972-chemical-spiral-wave-height-field-stage-floor-webxr"
+    ],
+    "studio_codex": [
+      "/codex/blender-python-scripting",
+      "/codex/numpy-in-blender"
+    ],
+    "outside_sources": [
+      {
+        "title": "Complex Patterns in a Simple System",
+        "authors": "Pearson JE",
+        "year": 1993,
+        "journal": "Science",
+        "volume": 261,
+        "issue": 5118,
+        "pages": "189-192",
+        "doi": "10.1126/science.261.5118.189",
+        "url": "https://doi.org/10.1126/science.261.5118.189",
+        "licence": "Mathematical results — public domain",
+        "related_projects": [
+          "https://github.com/pmneila/jsexp",
+          "https://github.com/numpy/numpy"
+        ]
+      },
+      {
+        "title": "Autocatalytic reactions in the isothermal, continuous stirred tank reactor",
+        "authors": "Gray P, Scott SK",
+        "year": 1984,
+        "journal": "Chemical Engineering Science",
+        "volume": 39,
+        "issue": 6,
+        "pages": "1087-1097",
+        "doi": "10.1016/0009-2509(84)87017-7",
+        "url": "https://doi.org/10.1016/0009-2509(84)87017-7",
+        "licence": "Mathematical equations — public domain",
+        "related_projects": [
+          "https://github.com/scipy/scipy",
+          "https://github.com/pmneila/jsexp"
+        ]
+      },
+      {
+        "title": "Array programming with NumPy",
+        "authors": "Harris CR et al.",
+        "year": 2020,
+        "journal": "Nature",
+        "volume": 585,
+        "pages": "357-362",
+        "doi": "10.1038/s41586-020-2649-2",
+        "url": "https://numpy.org",
+        "licence": "BSD-3-Clause",
+        "related_projects": [
+          "https://github.com/scipy/scipy",
+          "https://github.com/cupy/cupy"
+        ]
+      },
+      {
+        "title": "jsexp — Gray-Scott reaction-diffusion explorer",
+        "authors": "Pablo Muñoz Fernández (pmneila)",
+        "year": 2013,
+        "url": "https://github.com/pmneila/jsexp",
+        "licence": "MIT",
+        "related_projects": [
+          "https://github.com/pmneila",
+          "https://numpy.org"
+        ]
+      }
+    ]
+  }
+}
