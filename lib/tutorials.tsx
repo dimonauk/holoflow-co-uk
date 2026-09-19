@@ -733,6 +733,7 @@ import { blenderTutorialPythonNumpyGueGaussianUnitaryEnsembleMontgomery1973PairC
 import { entry as blenderTutorialGnSimulationZoneNBodyGravityLeapfrogOrbitalDancePoiWebxrEntry } from "components/tutorials/entries/blender-tutorial-gn-simulation-zone-n-body-gravity-leapfrog-orbital-dance-poi-webxr";
 import { entry as blenderTutorialPythonNumpyYee1966Fdtd1dMaxwellEquationsEmWaveDielectricPmlSpaceTimeHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-yee-1966-fdtd-1d-maxwell-equations-em-wave-dielectric-pml-space-time-height-field-stage-floor-webxr";
 import { entry as blenderTutorialPythonNumpyPhaseFieldCrystalElderGrant2004HexagonalCrystalGrainBoundaryConservedCahnHilliardHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-phase-field-crystal-elder-grant-2004-hexagonal-crystal-grain-boundary-conserved-cahn-hilliard-height-field-stage-floor-webxr";
+import { entry as blenderTutorialPythonNumpyWignerQuasiProbabilityDistribution1932QuantumPhaseSpaceFockStateCatStateSqueezeVacuumStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-wigner-quasi-probability-distribution-1932-quantum-phase-space-fock-state-cat-state-squeezed-vacuum-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1473,6 +1474,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialGnSimulationZoneNBodyGravityLeapfrogOrbitalDancePoiWebxrEntry,
   blenderTutorialPythonNumpyYee1966Fdtd1dMaxwellEquationsEmWaveDielectricPmlSpaceTimeHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyPhaseFieldCrystalElderGrant2004HexagonalCrystalGrainBoundaryConservedCahnHilliardHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyWignerQuasiProbabilityDistribution1932QuantumPhaseSpaceFockStateCatStateSqueezeVacuumStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

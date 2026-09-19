@@ -1,0 +1,108 @@
+{
+  "slug": "python-numpy-wigner-quasi-probability-distribution-1932-quantum-phase-space-fock-state-cat-state-squeezed-vacuum-stage-floor-webxr",
+  "topic": "scripting",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "generated_files": [
+    "wigner_phase_floor.blend",
+    "wigner_phase_floor.glb"
+  ],
+  "source_files": [
+    "blueprint.py",
+    "record.py",
+    "SCREEN-RECORDING-NOTES.md",
+    "README.md"
+  ],
+  "video_files": [
+    "public/library/videos/scripting/python-numpy-wigner-quasi-probability-distribution-1932-quantum-phase-space-fock-state-cat-state-squeezed-vacuum-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-wigner-quasi-probability-distribution-1932-quantum-phase-space-fock-state-cat-state-squeezed-vacuum-stage-floor-webxr/screen.mp4"
+  ],
+  "mesh": {
+    "vertices": 16384,
+    "quad_faces": 16129,
+    "colour_attribute": "WQP_Phase",
+    "colour_domain": "POINT",
+    "colour_encoding": "FLOAT_COLOR"
+  },
+  "shape_keys": [
+    {
+      "name": "Basis",
+      "physics": "Fock |0⟩ ground state — W_0=(2/π)exp(-2r²) Gaussian always positive"
+    },
+    {
+      "name": "SK_Fock1",
+      "physics": "Fock |1⟩ first excited — W_1=(1/π)(4r²-1)exp(-2r²) negative at origin r<1/2"
+    },
+    {
+      "name": "SK_Fock5",
+      "physics": "Fock |5⟩ fifth excited — W_5=(1/π)L_5(4r²)exp(-2r²) five concentric rings alternating sign"
+    },
+    {
+      "name": "SK_Cat",
+      "physics": "Schrodinger cat (|+2⟩+|-2⟩)/N alpha=2 — two Gaussian peaks + cos(4p*alpha) interference fringes"
+    },
+    {
+      "name": "SK_Squeezed",
+      "physics": "Squeezed vacuum r=1.2 — elliptical Gaussian sigma_q=e^{-1.2}/sqrt(2) sigma_p=e^{1.2}/sqrt(2)"
+    }
+  ],
+  "physics": {
+    "model": "Wigner quasi-probability distribution (Wigner 1932 Phys Rev 40:749)",
+    "definition": "W(q,p) = (1/pi) int psi*(q+y) psi(q-y) exp(2ipy) dy",
+    "marginals": "int W dp = |psi(q)|^2 ; int W dq = |phi(p)|^2",
+    "negativity": "W<0 iff state is non-Gaussian (Hudson 1974 Rep Math Phys 6:249)",
+    "fock_formula": "W_n(q,p) = ((-1)^n/pi) exp(-2r^2) L_n(4r^2) where r^2=q^2+p^2",
+    "cat_formula": "W_cat = N^2[W_+alpha + W_-alpha + (2/pi)exp(-2(r^2+alpha^2))2cos(4p*alpha)]",
+    "squeezed_formula": "W_sq(q,p) = (2/pi)exp(-2e^{2r}q^2 - 2e^{-2r}p^2)",
+    "natural_units": "hbar=1 omega=1 m=1",
+    "grid": "128x128 periodic phase space q,p in [-4,4]",
+    "laguerre": "scipy.special.eval_genlaguerre(n, 0, 4r^2) BSD-3-Clause"
+  },
+  "export": {
+    "compression": "Draco-6",
+    "textures": "WebP",
+    "up_axis": "+Y",
+    "export_morph": true,
+    "export_colors": true
+  },
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-bloch-sphere-qubit-rabi-precession-berry-phase-su2-pauli-poi-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gue-gaussian-unitary-ensemble-montgomery-1973-pair-correlation-sine-kernel-wigner-dyson-beta-family-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ssh-su-schrieffer-heeger-1979-zak-phase-topological-edge-states-spectral-flow-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gross-pitaevskii-bec-rotating-vortex-lattice-abrikosov-imaginary-time-split-operator-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-complex-ginzburg-landau-equation-1950-etd1-fourier-spectral-phase-defects-spiral-turbulence-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "author": "Wigner EP",
+        "year": 1932,
+        "title": "On the Quantum Correction For Thermodynamic Equilibrium",
+        "journal": "Physical Review",
+        "volume": "40",
+        "pages": "749-759",
+        "doi": "10.1103/PhysRev.40.749",
+        "licence": "Public Domain (pre-1978 US Government publication)",
+        "note": "Original paper introducing the Wigner function and its marginal properties"
+      },
+      {
+        "author": "Hudson RL",
+        "year": 1974,
+        "title": "When is the Wigner quasi-probability density non-negative?",
+        "journal": "Reports on Mathematical Physics",
+        "volume": "6",
+        "pages": "249-252",
+        "doi": "10.1016/0034-4877(74)90007-X",
+        "licence": "Public Domain (mathematical theorem proof)",
+        "note": "Proves W>=0 iff Gaussian — the key negativity criterion"
+      },
+      {
+        "name": "NumPy + SciPy (eval_genlaguerre)",
+        "licence": "BSD-3-Clause",
+        "url": "https://scipy.org",
+        "citation": "Virtanen et al. 2020 Nature Methods 17:261-272 doi:10.1038/s41592-019-0686-2",
+        "related": "https://github.com/scipy/scipy"
+      }
+    ]
+  }
+}
