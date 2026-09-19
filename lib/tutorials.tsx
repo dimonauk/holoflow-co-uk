@@ -718,6 +718,7 @@ import { entry as blenderTutorialPythonNumpySchnakenberg1979ActivatorSubstrateTu
 import { blenderTutorialPythonNumpyFisherKpp1937KolmogorovPetrovskyPiskunovPulledWaveBistableAlleeEtd1SpectralHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-fisher-kpp-1937-kolmogorov-petrovsky-piskunov-pulled-wave-bistable-allee-etd1-spectral-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyGrayScott1984Pearson1993ActivatorDepletionTuringSpotWormHoleHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-gray-scott-1984-pearson-1993-activator-depletion-turing-spot-worm-hole-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpySshSuSchriefferHeeger1979ZakPhaseTopologicalEdgeStatesSpectralFlowStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-ssh-su-schrieffer-heeger-1979-zak-phase-topological-edge-states-spectral-flow-stage-floor-webxr";
+import { blenderTutorialPythonNumpyHaldane1988ChernInsulatorBerryCurvatureTopologicalPhaseDiagramHoneycombHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-haldane-1988-chern-insulator-berry-curvature-topological-phase-diagram-honeycomb-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1443,6 +1444,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyFisherKpp1937KolmogorovPetrovskyPiskunovPulledWaveBistableAlleeEtd1SpectralHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyGrayScott1984Pearson1993ActivatorDepletionTuringSpotWormHoleHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpySshSuSchriefferHeeger1979ZakPhaseTopologicalEdgeStatesSpectralFlowStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyHaldane1988ChernInsulatorBerryCurvatureTopologicalPhaseDiagramHoneycombHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

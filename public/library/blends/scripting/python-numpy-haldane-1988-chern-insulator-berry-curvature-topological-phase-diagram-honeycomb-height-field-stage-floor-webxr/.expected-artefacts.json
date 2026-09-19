@@ -1,0 +1,91 @@
+{
+  "blend": "haldane_floor.blend",
+  "glb": "haldane_floor.glb",
+  "videos": ["viewport.mp4", "screen.mp4"],
+  "blender_version": "5.1",
+  "grid": "128x128",
+  "vertices": 16384,
+  "quads": 16129,
+  "shape_keys": ["Basis", "SK_PhiPi4", "SK_NearCrit", "SK_Trivial"],
+  "vertex_attributes": ["HLD_BC"],
+  "parameters": {
+    "t1": 1.0,
+    "t2": 0.20,
+    "M_crit": 1.039,
+    "lattice": "honeycomb",
+    "BZ_sampling": "128x128 reduced coordinates"
+  },
+  "haldane_variants": {
+    "Basis":      { "phi": 1.5708, "M": 0.000, "chern": "+1", "pattern": "equal curvature peaks at K and K′" },
+    "SK_PhiPi4":  { "phi": 0.7854, "M": 0.000, "chern": "+1", "pattern": "weaker peaks, sin(π/4)=0.707" },
+    "SK_NearCrit":{ "phi": 1.5708, "M": 0.987, "chern": "+1→0", "pattern": "asymmetric peaks, approaching phase boundary" },
+    "SK_Trivial": { "phi": 1.5708, "M": 1.558, "chern":  "0", "pattern": "nearly flat, trivial Chern insulator" }
+  },
+  "export": {
+    "draco_level": 6,
+    "texture_format": "WEBP",
+    "export_morph": true,
+    "export_colors": true,
+    "y_up": true
+  },
+  "cross_references": {
+    "studio_tutorials": [
+      "/tutorials/blender-tutorial-python-numpy-ssh-su-schrieffer-heeger-1979-zak-phase-topological-edge-states-spectral-flow-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-bloch-sphere-qubit-rabi-precession-berry-phase-su2-pauli-poi-webxr",
+      "/tutorials/blender-tutorial-python-numpy-tight-binding-2d-square-lattice-dispersion-fermi-surface-van-hove-singularity-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-complex-ginzburg-landau-pde-spiral-turbulence-benjamin-feir-defect-height-field-stage-floor-webxr"
+    ],
+    "studio_codex": [
+      "/codex/blender-python-scripting",
+      "/codex/numpy-in-blender"
+    ],
+    "outside_sources": [
+      {
+        "title": "Model for a Quantum Hall Effect without Landau Levels",
+        "authors": "Haldane FDM",
+        "year": 1988,
+        "journal": "Physical Review Letters",
+        "volume": 61,
+        "issue": 18,
+        "pages": "2015-2018",
+        "doi": "10.1103/PhysRevLett.61.2015",
+        "url": "https://doi.org/10.1103/PhysRevLett.61.2015",
+        "licence": "Mathematical results — public domain",
+        "note": "2016 Nobel Prize in Physics"
+      },
+      {
+        "title": "Quantized Hall Conductance in a Two-Dimensional Periodic Potential",
+        "authors": "Thouless DJ, Kohmoto M, Nightingale MP, den Nijs M",
+        "year": 1982,
+        "journal": "Physical Review Letters",
+        "volume": 49,
+        "issue": 6,
+        "pages": "405-408",
+        "doi": "10.1103/PhysRevLett.49.405",
+        "url": "https://doi.org/10.1103/PhysRevLett.49.405",
+        "licence": "Mathematical results — public domain"
+      },
+      {
+        "title": "A Short Course on Topological Insulators",
+        "authors": "Asbóth JK, Oroszlány L, Pályi A",
+        "year": 2016,
+        "journal": "Lecture Notes in Physics",
+        "volume": 919,
+        "doi": "10.1007/978-3-319-25607-8",
+        "url": "https://arxiv.org/abs/1509.02295",
+        "licence": "CC-BY 4.0"
+      },
+      {
+        "title": "Array programming with NumPy",
+        "authors": "Harris CR et al.",
+        "year": 2020,
+        "journal": "Nature",
+        "volume": 585,
+        "pages": "357-362",
+        "doi": "10.1038/s41586-020-2649-2",
+        "url": "https://numpy.org",
+        "licence": "BSD-3-Clause"
+      }
+    ]
+  }
+}
