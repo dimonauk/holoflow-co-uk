@@ -1,0 +1,135 @@
+{
+  "slug": "python-numpy-xy-model-2d-berezinskii-kosterlitz-thouless-1971-1973-vortex-antivortex-unbinding-topological-phase-transition-height-field-stage-floor-webxr",
+  "topic": "scripting",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "generated_files": [
+    "xy_bkt_floor.blend",
+    "xy_bkt_floor.glb"
+  ],
+  "source_files": [
+    "blueprint.py",
+    "record.py",
+    "SCREEN-RECORDING-NOTES.md",
+    "README.md"
+  ],
+  "video_files": [
+    "public/library/videos/scripting/python-numpy-xy-model-2d-berezinskii-kosterlitz-thouless-1971-1973-vortex-antivortex-unbinding-topological-phase-transition-height-field-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-xy-model-2d-berezinskii-kosterlitz-thouless-1971-1973-vortex-antivortex-unbinding-topological-phase-transition-height-field-stage-floor-webxr/screen.mp4"
+  ],
+  "mesh": {
+    "vertices": 16384,
+    "quad_faces": 16129,
+    "colour_attribute": "XY_CosTheta",
+    "colour_domain": "POINT",
+    "colour_encoding": "FLOAT_COLOR"
+  },
+  "shape_keys": [
+    {
+      "name": "Basis",
+      "T_over_TBKT": 0.40,
+      "T_Jkb": 0.3574,
+      "physics": "quasi-LRO, spin waves, bound vortex-antivortex pairs"
+    },
+    {
+      "name": "SK_BKT",
+      "T_over_TBKT": 1.00,
+      "T_Jkb": 0.8935,
+      "physics": "BKT critical point, algebraic correlations G(r)~r^{-1/4}"
+    },
+    {
+      "name": "SK_Unbound",
+      "T_over_TBKT": 1.20,
+      "T_Jkb": 1.0722,
+      "physics": "above BKT, free vortices proliferating, exponential G(r)"
+    },
+    {
+      "name": "SK_HighT",
+      "T_over_TBKT": 2.50,
+      "T_Jkb": 2.2338,
+      "physics": "high temperature, fully disordered, short-range correlations only"
+    }
+  ],
+  "physics": {
+    "model": "2D classical XY ferromagnet",
+    "Hamiltonian": "H = −J Σ_{⟨ij⟩} cos(θᵢ − θⱼ)",
+    "algorithm": "checkerboard Metropolis with continuous angle moves δ ~ Uniform(−π/4, π/4)",
+    "T_BKT": "0.8935 J/k_B (Hasenbusch 2005 PRB 71:184420)",
+    "transition": "topological, infinite-order; vortex-antivortex unbinding",
+    "universality": {
+      "correlations_below": "G(r) ~ r^{−η(T)}, η = k_BT/(2πJ)",
+      "eta_at_TBKT": "1/4",
+      "correlations_above": "G(r) ~ exp(−r/ξ), ξ ~ exp(b/√(T−T_BKT))",
+      "nelson_kosterlitz_jump": "ρs(T_BKT⁻) / T_BKT = 2/π (universal)"
+    },
+    "height_field": "cos(θ(x,y)), mapped to [0,1]*Z_SCALE"
+  },
+  "export": {
+    "compression": "Draco-6",
+    "textures": "WebP",
+    "up_axis": "+Y",
+    "export_morph": true,
+    "export_colors": true
+  },
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-haldane-1988-chern-insulator-berry-curvature-topological-phase-diagram-honeycomb-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-kane-mele-2005-quantum-spin-hall-z2-topological-insulator-spin-hall-curvature-honeycomb-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gross-pitaevskii-bec-rotating-vortex-lattice-abrikosov-imaginary-time-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-complex-ginzburg-landau-pde-spiral-turbulence-benjamin-feir-defect-height-field-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "author": "Berezinskii VL",
+        "year": 1971,
+        "title": "Destruction of long-range order in one-dimensional and two-dimensional systems having a continuous symmetry group I: Classical systems",
+        "journal": "Soviet Physics JETP",
+        "volume": "32",
+        "pages": "493-500",
+        "licence": "PD (>50 yr)",
+        "note": "First identification of the topological phase transition and bound vortex state"
+      },
+      {
+        "author": "Kosterlitz JM, Thouless DJ",
+        "year": 1973,
+        "title": "Ordering, metastability and phase transitions in two-dimensional systems",
+        "journal": "Journal of Physics C: Solid State Physics",
+        "volume": "6",
+        "pages": "1181-1203",
+        "doi": "10.1088/0022-3719/6/7/010",
+        "licence": "PD (>50 yr)",
+        "note": "Full renormalisation-group treatment; Nobel Prize 2016 (Kosterlitz & Thouless)"
+      },
+      {
+        "author": "Nelson DR, Kosterlitz JM",
+        "year": 1977,
+        "title": "Universal jump in the superfluid density of two-dimensional superfluids",
+        "journal": "Physical Review Letters",
+        "volume": "39",
+        "pages": "1201-1205",
+        "doi": "10.1103/PhysRevLett.39.1201",
+        "licence": "PD (>40 yr)",
+        "note": "Universal jump ρs/T_BKT = 2/π; experimentally confirmed by Bishop & Reppy 1978"
+      },
+      {
+        "author": "Hasenbusch M",
+        "year": 2005,
+        "title": "The two-dimensional XY model at the transition temperature: a high-precision Monte Carlo study",
+        "journal": "Physical Review B",
+        "volume": "71",
+        "pages": "184420",
+        "doi": "10.1103/PhysRevB.71.184420",
+        "licence": "CC0 (equations/data)",
+        "note": "High-precision T_BKT = 0.8935 J/k_B; defines the simulation target"
+      },
+      {
+        "name": "NumPy",
+        "licence": "BSD-3-Clause",
+        "url": "https://numpy.org",
+        "citation": "Harris et al. 2020 Nature 585:357-362",
+        "related": "https://github.com/scipy/scipy (SciPy BSD-3-Clause)"
+      }
+    ]
+  }
+}
