@@ -1,0 +1,71 @@
+{
+  "slug": "python-numpy-kuramoto-2d-phase-oscillators-synchronisation-spiral-wave-chimera-stage-floor-webxr",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "files": [
+    "kuramoto_phase_floor.blend",
+    "kuramoto_phase_floor.glb",
+    "blueprint.py",
+    "record.py",
+    "SCREEN-RECORDING-NOTES.md",
+    "viewport.mp4",
+    "screen.mp4"
+  ],
+  "mesh": {
+    "vertices": 16384,
+    "quads": 16129,
+    "object_name": "kuramoto_phase_floor",
+    "mesh_name": "Kuramoto_Phase",
+    "shape_keys": ["Basis", "SK_LowK", "SK_HighK", "SK_BroadW"],
+    "colour_attribute": "Col",
+    "colour_type": "FLOAT_COLOR",
+    "colour_domain": "POINT"
+  },
+  "export": {
+    "format": "GLB",
+    "draco_level": 6,
+    "image_format": "WEBP",
+    "export_morph": true,
+    "export_colors": true,
+    "y_up_applied": true
+  },
+  "simulation": {
+    "model": "2D Kuramoto nearest-neighbour",
+    "integrator": "Forward Euler",
+    "dt": 0.05,
+    "n_steps": 300,
+    "grid": "128x128 periodic",
+    "frequency_distribution": "Lorentzian (Cauchy)",
+    "height_encoding": "0.5 + 0.5*cos(theta)",
+    "colour_encoding": "local order parameter 5x5 box"
+  },
+  "cross_references": {
+    "studio_articles": [],
+    "studio_tutorials": [
+      "/tutorials/blender-tutorial-python-numpy-xy-model-2d-berezinskii-kosterlitz-thouless-1971-1973-vortex-antivortex-unbinding-topological-phase-transition-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-complex-ginzburg-landau-equation-1950-dissipative-phase-defects-spiral-turbulence-etd1-spectral-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-fitzhugh-nagumo-1961-excitable-media-trigger-wave-spiral-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-2d-navier-stokes-turbulence-kraichnan-batchelor-leith-1967-inverse-cascade-pseudospectral-rk4-height-field-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "title": "Kuramoto 1975 — Self-entrainment of coupled oscillators",
+        "url": "https://doi.org/10.1007/BFb0013365",
+        "licence": "PD",
+        "author": "Y. Kuramoto"
+      },
+      {
+        "title": "Abrams & Strogatz 2004 — Chimera States for Coupled Oscillators",
+        "url": "https://doi.org/10.1103/PhysRevLett.93.174102",
+        "licence": "PD",
+        "author": "D. M. Abrams, S. H. Strogatz"
+      },
+      {
+        "title": "NumPy",
+        "url": "https://github.com/numpy/numpy",
+        "licence": "BSD-3-Clause",
+        "author": "NumPy contributors"
+      }
+    ]
+  }
+}

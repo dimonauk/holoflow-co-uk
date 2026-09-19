@@ -728,6 +728,7 @@ import { blenderTutorialPythonNumpyBakTangWiesenfeld1987AbelianSandpileSelfOrgan
 import { blenderTutorialPythonNumpyAndersonLocalization2dTightBindingDisorderIprHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-anderson-localization-2d-tight-binding-disorder-ipr-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyHofstadterButterfly1976BlochElectronRationalFluxHarperEquationFractalCantorSpectrumStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-hofstadter-butterfly-1976-bloch-electron-rational-flux-harper-equation-fractal-cantor-spectrum-stage-floor-webxr";
 import { blenderTutorialPythonNumpyDlaDiffusionLimitedAggregationWittenSander1981FractalGrowthDendriticCrystalHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-dla-diffusion-limited-aggregation-witten-sander-1981-fractal-growth-dendritic-crystal-height-field-stage-floor-webxr";
+import { blenderTutorialPythonNumpyKuramoto2dPhaseOscillatorsSynchronisationSpiralWaveChimeraStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-kuramoto-2d-phase-oscillators-synchronisation-spiral-wave-chimera-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1463,6 +1464,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyAndersonLocalization2dTightBindingDisorderIprHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyHofstadterButterfly1976BlochElectronRationalFluxHarperEquationFractalCantorSpectrumStageFloorWebxrEntry,
   blenderTutorialPythonNumpyDlaDiffusionLimitedAggregationWittenSander1981FractalGrowthDendriticCrystalHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyKuramoto2dPhaseOscillatorsSynchronisationSpiralWaveChimeraStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);
