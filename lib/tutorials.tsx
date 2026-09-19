@@ -732,6 +732,7 @@ import { blenderTutorialPythonNumpyKuramoto2dPhaseOscillatorsSynchronisationSpir
 import { blenderTutorialPythonNumpyGueGaussianUnitaryEnsembleMontgomery1973PairCorrelationSineKernelWignerDysonBetaFamilyStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-gue-gaussian-unitary-ensemble-montgomery-1973-pair-correlation-sine-kernel-wigner-dyson-beta-family-stage-floor-webxr";
 import { entry as blenderTutorialGnSimulationZoneNBodyGravityLeapfrogOrbitalDancePoiWebxrEntry } from "components/tutorials/entries/blender-tutorial-gn-simulation-zone-n-body-gravity-leapfrog-orbital-dance-poi-webxr";
 import { entry as blenderTutorialPythonNumpyYee1966Fdtd1dMaxwellEquationsEmWaveDielectricPmlSpaceTimeHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-yee-1966-fdtd-1d-maxwell-equations-em-wave-dielectric-pml-space-time-height-field-stage-floor-webxr";
+import { entry as blenderTutorialPythonNumpyPhaseFieldCrystalElderGrant2004HexagonalCrystalGrainBoundaryConservedCahnHilliardHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-phase-field-crystal-elder-grant-2004-hexagonal-crystal-grain-boundary-conserved-cahn-hilliard-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1471,6 +1472,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyGueGaussianUnitaryEnsembleMontgomery1973PairCorrelationSineKernelWignerDysonBetaFamilyStageFloorWebxrEntry,
   blenderTutorialGnSimulationZoneNBodyGravityLeapfrogOrbitalDancePoiWebxrEntry,
   blenderTutorialPythonNumpyYee1966Fdtd1dMaxwellEquationsEmWaveDielectricPmlSpaceTimeHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyPhaseFieldCrystalElderGrant2004HexagonalCrystalGrainBoundaryConservedCahnHilliardHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

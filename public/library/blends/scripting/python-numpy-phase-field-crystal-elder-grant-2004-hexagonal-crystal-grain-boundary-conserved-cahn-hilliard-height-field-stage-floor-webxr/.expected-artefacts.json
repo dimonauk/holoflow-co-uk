@@ -1,0 +1,107 @@
+{
+  "slug": "python-numpy-phase-field-crystal-elder-grant-2004-hexagonal-crystal-grain-boundary-conserved-cahn-hilliard-height-field-stage-floor-webxr",
+  "topic": "scripting",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "generated_files": [
+    "pfc_crystal_floor.blend",
+    "pfc_crystal_floor.glb"
+  ],
+  "source_files": [
+    "blueprint.py",
+    "record.py",
+    "SCREEN-RECORDING-NOTES.md",
+    "README.md"
+  ],
+  "video_files": [
+    "public/library/videos/scripting/python-numpy-phase-field-crystal-elder-grant-2004-hexagonal-crystal-grain-boundary-conserved-cahn-hilliard-height-field-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-phase-field-crystal-elder-grant-2004-hexagonal-crystal-grain-boundary-conserved-cahn-hilliard-height-field-stage-floor-webxr/screen.mp4"
+  ],
+  "mesh": {
+    "vertices": 16384,
+    "quad_faces": 16129,
+    "colour_attribute": "PFC_Density",
+    "colour_domain": "POINT",
+    "colour_encoding": "FLOAT_COLOR"
+  },
+  "shape_keys": [
+    { "name": "Basis",      "physics": "hexagonal crystal lattice r=-0.25 psi_bar=-0.50 T=800 steps" },
+    { "name": "SK_GrainBnd","physics": "polycrystalline grain boundary two independent nucleation domains T=600" },
+    { "name": "SK_Stripe",  "physics": "lamellar stripe phase r=-0.07 psi_bar=-0.25 T=800 steps" },
+    { "name": "SK_Coexist", "physics": "liquid-crystal coexistence r=-0.12 psi_bar=-0.38 T=300 steps" }
+  ],
+  "physics": {
+    "model": "Phase-Field Crystal (PFC) — Elder & Grant 2004",
+    "free_energy": "F[psi] = integral{ (psi/2)[r+(1+nabla^2)^2]psi + psi^4/4 } dr",
+    "dynamics": "conserved Model B: d_t psi = nabla^2 [delta_F/delta_psi]",
+    "fourier_operator": "Lambda(k) = -k^2 * (r + (1-k^2)^2)",
+    "natural_wavenumber": "k0 = 1 (hexagonal lattice spacing a0 = 4pi/sqrt(3) approx 7.26)",
+    "integrator": "ETD1 Cox-Matthews 2002 unconditionally stable linear part",
+    "conservation": "total density psi_bar exactly conserved at k=0 (E_0=1, k^2_0=0)",
+    "phases": {
+      "crystal_hexagonal": "r<0 sufficient density -> triangular lattice (three wavevectors at 60deg)",
+      "stripe_lamellar": "r<0 lower density -> single wavevector 1D periodic",
+      "liquid": "r>0 or extreme low density -> uniform disordered state"
+    },
+    "lattice": "128x128 periodic square"
+  },
+  "export": {
+    "compression": "Draco-6",
+    "textures": "WebP",
+    "up_axis": "+Y",
+    "export_morph": true,
+    "export_colors": true
+  },
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-cahn-hilliard-phase-field-spinodal-decomposition-ostwald-ripening-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-swift-hohenberg-1977-stripe-hexagon-labyrinth-etd1-spectral-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gray-scott-1984-pearson-1993-activator-depletion-turing-spot-worm-hole-height-field-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "author": "Elder KR, Grant M",
+        "year": 2004,
+        "title": "Modeling elastic and plastic deformations in nonequilibrium processing using phase field crystals",
+        "journal": "Physical Review E",
+        "volume": "70",
+        "issue": "5",
+        "pages": "051605",
+        "doi": "10.1103/PhysRevE.70.051605",
+        "note": "Original PFC paper — introduces the free energy functional and conserved dynamics",
+        "url": "https://link.aps.org/doi/10.1103/PhysRevE.70.051605"
+      },
+      {
+        "author": "Elder KR, Katakowski M, Haataja M, Grant M",
+        "year": 2002,
+        "title": "Modeling elasticity in crystal growth",
+        "journal": "Physical Review Letters",
+        "volume": "88",
+        "issue": "24",
+        "pages": "245701",
+        "doi": "10.1103/PhysRevLett.88.245701",
+        "note": "First PFC paper — motivates the atomic-scale free energy from DFT",
+        "url": "https://link.aps.org/doi/10.1103/PhysRevLett.88.245701"
+      },
+      {
+        "author": "Cox SM, Matthews PC",
+        "year": 2002,
+        "title": "Exponential time differencing for stiff systems",
+        "journal": "Journal of Computational Physics",
+        "volume": "176",
+        "pages": "430-455",
+        "doi": "10.1006/jcph.2002.6995",
+        "note": "ETD1 integrator used for the linear PFC operator"
+      },
+      {
+        "name": "NumPy",
+        "licence": "BSD-3-Clause",
+        "url": "https://numpy.org",
+        "citation": "Harris et al. 2020 Nature 585:357-362 DOI 10.1038/s41586-020-2649-2",
+        "related": "https://github.com/scipy/scipy"
+      }
+    ]
+  }
+}
