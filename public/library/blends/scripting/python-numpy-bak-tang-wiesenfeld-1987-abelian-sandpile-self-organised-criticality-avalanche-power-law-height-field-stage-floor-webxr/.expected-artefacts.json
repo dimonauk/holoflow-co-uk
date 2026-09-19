@@ -1,0 +1,96 @@
+{
+  "slug": "python-numpy-bak-tang-wiesenfeld-1987-abelian-sandpile-self-organised-criticality-avalanche-power-law-height-field-stage-floor-webxr",
+  "topic": "scripting",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "generated_files": [
+    "btw_sandpile_floor.blend",
+    "btw_sandpile_floor.glb"
+  ],
+  "source_files": [
+    "blueprint.py",
+    "record.py",
+    "SCREEN-RECORDING-NOTES.md",
+    "README.md"
+  ],
+  "video_files": [
+    "public/library/videos/scripting/python-numpy-bak-tang-wiesenfeld-1987-abelian-sandpile-self-organised-criticality-avalanche-power-law-height-field-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-bak-tang-wiesenfeld-1987-abelian-sandpile-self-organised-criticality-avalanche-power-law-height-field-stage-floor-webxr/screen.mp4"
+  ],
+  "mesh": {
+    "vertices": 16384,
+    "quad_faces": 16129,
+    "colour_attribute": "BTW_Height",
+    "colour_domain": "POINT",
+    "colour_encoding": "FLOAT_COLOR"
+  },
+  "shape_keys": [
+    { "name": "Basis",       "physics": "critical-state height field h in {0,1,2,3}" },
+    { "name": "SK_SmallAval","physics": "Basis heights + small-avalanche cluster raised by Z_BOOST=0.28" },
+    { "name": "SK_LargeAval","physics": "Basis heights + large system-spanning avalanche cluster" },
+    { "name": "SK_Maximal",  "physics": "uniform h=3 maximally-stable initial state" }
+  ],
+  "physics": {
+    "model": "Bak-Tang-Wiesenfeld Abelian Sandpile Model",
+    "mechanism": "SOC — self-organised criticality, no parameter tuning",
+    "critical_height": 4,
+    "boundary": "open (grains leaving the grid are lost)",
+    "toppling": "simultaneous vectorised (Abelian property: order-independent)",
+    "power_law_size_exponent_tau": "approx 1.11 (2D BTW universality class)",
+    "avalanche_duration_exponent_tau_t": "approx 1.50",
+    "avalanche_cluster_fractal_dimension": "approx 2.75",
+    "settling_grains": 1200000,
+    "lattice": "128x128 open square lattice"
+  },
+  "export": {
+    "compression": "Draco-6",
+    "textures": "WebP",
+    "up_axis": "+Y",
+    "export_morph": true,
+    "export_colors": true
+  },
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-potts-model-3-state-2d-wu-1982-self-dual-exact-tc-checkerboard-metropolis-three-color-domain-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-kpz-kardar-parisi-zhang-1986-stochastic-surface-growth-universality-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gray-scott-1984-pearson-1993-activator-depletion-turing-spot-worm-hole-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "author": "Bak P, Tang C, Wiesenfeld K",
+        "year": 1987,
+        "title": "Self-organized criticality: An explanation of the 1/f noise",
+        "journal": "Physical Review Letters",
+        "volume": "59",
+        "issue": "4",
+        "pages": "381-384",
+        "doi": "10.1103/PhysRevLett.59.381",
+        "licence": "PD (>35 yr)",
+        "note": "Original BTW paper — introduces the sandpile model and SOC concept",
+        "related": "https://link.aps.org/doi/10.1103/PhysRevLett.59.381"
+      },
+      {
+        "author": "Dhar D",
+        "year": 1990,
+        "title": "Self-organized critical state of sandpile automaton models",
+        "journal": "Physical Review Letters",
+        "volume": "64",
+        "issue": "14",
+        "pages": "1613-1616",
+        "doi": "10.1103/PhysRevLett.64.1613",
+        "licence": "PD (>30 yr)",
+        "note": "Proves the Abelian property; derives exact avalanche exponents via burning algorithm",
+        "related": "https://link.aps.org/doi/10.1103/PhysRevLett.64.1613"
+      },
+      {
+        "name": "NumPy",
+        "licence": "BSD-3-Clause",
+        "url": "https://numpy.org",
+        "citation": "Harris et al. 2020 Nature 585:357-362 DOI 10.1038/s41586-020-2649-2",
+        "related": "https://github.com/scipy/scipy (SciPy, BSD-3-Clause)"
+      }
+    ]
+  }
+}

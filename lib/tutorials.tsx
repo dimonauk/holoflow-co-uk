@@ -724,6 +724,7 @@ import { blenderTutorialPythonNumpyIsingModel2dMetropolisMonteCarloOnsagerExactT
 import { blenderTutorialPythonNumpyXyModel2dBerezinskiiKosterlitzThouless19711973VortexAntivortexUnbindingTopologicalPhaseTransitionHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-xy-model-2d-berezinskii-kosterlitz-thouless-1971-1973-vortex-antivortex-unbinding-topological-phase-transition-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyPottsModel3State2dWu1982SelfDualExactTcCheckerboardMetropolisThreeColorDomainHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-potts-model-3-state-2d-wu-1982-self-dual-exact-tc-checkerboard-metropolis-three-color-domain-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyNs2dTurbulenceKraichnanBatchelorLeith1967InverseCascadePseudospectralRk4HeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-2d-navier-stokes-turbulence-kraichnan-batchelor-leith-1967-inverse-cascade-pseudospectral-rk4-height-field-stage-floor-webxr";
+import { blenderTutorialPythonNumpyBakTangWiesenfeld1987AbelianSandpileSelfOrganisedCriticalityAvalanchePowerLawHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-bak-tang-wiesenfeld-1987-abelian-sandpile-self-organised-criticality-avalanche-power-law-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1455,6 +1456,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyXyModel2dBerezinskiiKosterlitzThouless19711973VortexAntivortexUnbindingTopologicalPhaseTransitionHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyPottsModel3State2dWu1982SelfDualExactTcCheckerboardMetropolisThreeColorDomainHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyNs2dTurbulenceKraichnanBatchelorLeith1967InverseCascadePseudospectralRk4HeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyBakTangWiesenfeld1987AbelianSandpileSelfOrganisedCriticalityAvalanchePowerLawHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);
