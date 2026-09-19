@@ -738,6 +738,7 @@ import { blenderTutorialPythonNumpyDrosselSchwabl1992ForestFireModelSelfOrganise
 import { blenderTutorialPythonNumpyTasepTotallyAsymmetricExclusionProcessDerrida1998OpenBoundaryPhaseDiagramKpzSpaceTimeHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-tasep-totally-asymmetric-exclusion-process-derrida-1998-open-boundary-phase-diagram-kpz-space-time-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpySitePercolationSquareLatticeHoshenKopelman1976StaufferAharonyNewmanZiffPcFractalSpanningClusterHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-site-percolation-square-lattice-hoshen-kopelman-1976-stauffer-aharony-newman-ziff-p-c-fractal-spanning-cluster-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyNlseNonlinearSchrodinger1972ZakharovShabatSolitonCollisionAkhmedievBreatherPeregrineRogueWaveHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-nlse-nonlinear-schrodinger-1972-zakharov-shabat-soliton-collision-akhmediev-breather-peregrine-rogue-wave-height-field-stage-floor-webxr";
+import { blenderTutorialPythonNumpyFrankOseenNematic1958OneConstantQTensorDisclinationHalfIntegerDefectsHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-frank-oseen-nematic-1958-one-constant-q-tensor-disclination-half-integer-defects-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1483,6 +1484,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyTasepTotallyAsymmetricExclusionProcessDerrida1998OpenBoundaryPhaseDiagramKpzSpaceTimeHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpySitePercolationSquareLatticeHoshenKopelman1976StaufferAharonyNewmanZiffPcFractalSpanningClusterHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyNlseNonlinearSchrodinger1972ZakharovShabatSolitonCollisionAkhmedievBreatherPeregrineRogueWaveHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyFrankOseenNematic1958OneConstantQTensorDisclinationHalfIntegerDefectsHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

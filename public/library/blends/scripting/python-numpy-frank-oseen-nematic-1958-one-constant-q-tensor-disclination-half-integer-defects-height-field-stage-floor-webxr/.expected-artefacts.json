@@ -1,0 +1,41 @@
+{
+  "blend": "lc_nematic_floor.blend",
+  "glb": "lc_nematic_floor.glb",
+  "videos": [
+    "public/library/videos/scripting/python-numpy-frank-oseen-nematic-1958-one-constant-q-tensor-disclination-half-integer-defects-height-field-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-frank-oseen-nematic-1958-one-constant-q-tensor-disclination-half-integer-defects-height-field-stage-floor-webxr/screen.mp4"
+  ],
+  "shape_keys": ["Basis", "SK_Comet", "SK_Hedgehog", "SK_Anneal"],
+  "vertex_count": 16384,
+  "quad_count": 16129,
+  "color_attribute": "LC_Director",
+  "blender_version": "5.1",
+  "export_format": "GLB",
+  "draco_level": 6,
+  "texture_format": "WEBP",
+  "licence": "CC0",
+  "cross_references": {
+    "studio": [
+      "/tutorials/blender-tutorial-python-numpy-xy-model-2d-berezinskii-kosterlitz-thouless-1971-1973-vortex-antivortex-unbinding-topological-phase-transition-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-complex-ginzburg-landau-pde-spiral-turbulence-benjamin-feir-defect-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gray-scott-1984-pearson-1993-activator-depletion-turing-spot-worm-hole-height-field-stage-floor-webxr"
+    ],
+    "external": [
+      {
+        "title": "Frank, F.C. (1958) — Liquid crystals. On the theory of liquid crystals.",
+        "url": "https://doi.org/10.1039/df9582500019",
+        "licence": "Public Domain (>50 yr, Discuss. Faraday Soc. 25:19-28)",
+        "author": "Frederick Charles Frank",
+        "related_project": "Oseen CW 1933 Trans Faraday Soc 29:883 (PD >80yr) — earlier partial formulation; Zocher H 1933 Trans Faraday Soc 29:945 (PD >80yr) — contemporary work on anisotropic fluids"
+      },
+      {
+        "title": "Harris, C.R. et al. (2020) — Array programming with NumPy",
+        "url": "https://doi.org/10.1038/s41586-020-2649-2",
+        "licence": "BSD-3-Clause (NumPy source); article CC-BY 4.0",
+        "author": "Charles R. Harris et al.",
+        "related_project": "SciPy https://github.com/scipy/scipy (BSD-3-Clause) — used for ndimage and special functions in related tutorials"
+      }
+    ]
+  }
+}
