@@ -1,0 +1,69 @@
+{
+  "blend": "hofstadter_butterfly_floor.blend",
+  "glb": "hofstadter_butterfly_floor.glb",
+  "viewport_mp4": "../../videos/scripting/python-numpy-hofstadter-butterfly-1976-bloch-electron-rational-flux-harper-equation-fractal-cantor-spectrum-stage-floor-webxr/viewport.mp4",
+  "screen_mp4": "../../videos/scripting/python-numpy-hofstadter-butterfly-1976-bloch-electron-rational-flux-harper-equation-fractal-cantor-spectrum-stage-floor-webxr/screen.mp4",
+  "mesh": {
+    "name": "Hofstadter_Butterfly",
+    "verts": 16384,
+    "quads": 16129,
+    "shape_keys": ["Basis", "SK_Coarse", "SK_Dense", "SK_Central"],
+    "color_attribute": "Col",
+    "color_type": "FLOAT_COLOR",
+    "color_domain": "POINT"
+  },
+  "physics": {
+    "equation": "Harper: H[n,n]=2cos(2πnα), H[n,n±1]=1, periodic BC",
+    "alpha_range": [0.0, 1.0],
+    "energy_range": [-4.2, 4.2],
+    "q_max_basis": 100,
+    "q_max_coarse": 30,
+    "q_max_dense": 200,
+    "q_max_central": 150,
+    "alpha_central": [0.4, 0.6],
+    "height_fn": "log10(1 + eigenvalue_count)"
+  },
+  "export": {
+    "format": "GLB",
+    "draco_level": 6,
+    "texture_format": "WEBP",
+    "y_up": true,
+    "morph_targets": true,
+    "vertex_colors": true
+  },
+  "cross_references": {
+    "tutorials": [
+      "/tutorials/blender-tutorial-python-numpy-ssh-su-schrieffer-heeger-1979-zak-phase-topological-edge-states-spectral-flow-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-haldane-1988-chern-insulator-berry-curvature-topological-phase-diagram-honeycomb-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-kane-mele-2005-quantum-spin-hall-z2-topological-insulator-spin-hall-curvature-honeycomb-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-anderson-localization-2d-tight-binding-disorder-ipr-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-tight-binding-2d-square-lattice-dispersion-fermi-surface-van-hove-singularity-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "title": "Hofstadter 1976 — original butterfly paper",
+        "url": "https://doi.org/10.1103/PhysRevB.14.2239",
+        "licence": "Public Domain (>50 yr)",
+        "author": "Douglas R. Hofstadter"
+      },
+      {
+        "title": "TKNN 1982 — quantised Hall conductance, Chern numbers",
+        "url": "https://doi.org/10.1103/PhysRevLett.49.405",
+        "licence": "Public Domain (>40 yr)",
+        "author": "Thouless, Kohmoto, Nightingale, den Nijs"
+      },
+      {
+        "title": "NumPy",
+        "url": "https://github.com/numpy/numpy",
+        "licence": "BSD-3-Clause",
+        "author": "NumPy contributors"
+      },
+      {
+        "title": "TopoCM — Topology in Condensed Matter course (Delft)",
+        "url": "https://github.com/topocm/topocm_content",
+        "licence": "CC0",
+        "author": "Akhmerov et al., TU Delft"
+      }
+    ]
+  }
+}

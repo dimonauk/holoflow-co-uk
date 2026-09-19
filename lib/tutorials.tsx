@@ -726,6 +726,7 @@ import { blenderTutorialPythonNumpyPottsModel3State2dWu1982SelfDualExactTcChecke
 import { blenderTutorialPythonNumpyNs2dTurbulenceKraichnanBatchelorLeith1967InverseCascadePseudospectralRk4HeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-2d-navier-stokes-turbulence-kraichnan-batchelor-leith-1967-inverse-cascade-pseudospectral-rk4-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyBakTangWiesenfeld1987AbelianSandpileSelfOrganisedCriticalityAvalanchePowerLawHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-bak-tang-wiesenfeld-1987-abelian-sandpile-self-organised-criticality-avalanche-power-law-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyAndersonLocalization2dTightBindingDisorderIprHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-anderson-localization-2d-tight-binding-disorder-ipr-height-field-stage-floor-webxr";
+import { blenderTutorialPythonNumpyHofstadterButterfly1976BlochElectronRationalFluxHarperEquationFractalCantorSpectrumStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-hofstadter-butterfly-1976-bloch-electron-rational-flux-harper-equation-fractal-cantor-spectrum-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1459,6 +1460,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyNs2dTurbulenceKraichnanBatchelorLeith1967InverseCascadePseudospectralRk4HeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyBakTangWiesenfeld1987AbelianSandpileSelfOrganisedCriticalityAvalanchePowerLawHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyAndersonLocalization2dTightBindingDisorderIprHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyHofstadterButterfly1976BlochElectronRationalFluxHarperEquationFractalCantorSpectrumStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);
