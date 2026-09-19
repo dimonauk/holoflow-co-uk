@@ -1,0 +1,50 @@
+{
+  "blend": "tasep_floor.blend",
+  "glb": "tasep_floor.glb",
+  "vertex_count": 16384,
+  "quad_count": 16129,
+  "colour_attribute": "TASEP_Density",
+  "colour_type": "FLOAT_COLOR",
+  "shape_keys": ["Basis", "SK_HDphase", "SK_MaxCurr", "SK_Shock"],
+  "draco_level": 6,
+  "texture_format": "WEBP",
+  "export_morph": true,
+  "export_colors": true,
+  "yup": true,
+  "holoflow_category": "stage-floor",
+  "holoflow_facet": true,
+  "videos": {
+    "viewport": "public/library/videos/scripting/python-numpy-tasep-totally-asymmetric-exclusion-process-derrida-1998-open-boundary-phase-diagram-kpz-space-time-height-field-stage-floor-webxr/viewport.mp4",
+    "screen": "public/library/videos/scripting/python-numpy-tasep-totally-asymmetric-exclusion-process-derrida-1998-open-boundary-phase-diagram-kpz-space-time-height-field-stage-floor-webxr/screen.mp4"
+  },
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-kpz-kardar-parisi-zhang-1986-stochastic-surface-growth-universality-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-bak-tang-wiesenfeld-1987-abelian-sandpile-self-organised-criticality-avalanche-power-law-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-dla-diffusion-limited-aggregation-witten-sander-1981-fractal-growth-dendritic-crystal-height-field-stage-floor-webxr"
+    ],
+    "external": [
+      {
+        "title": "An exactly soluble non-equilibrium system: the asymmetric simple exclusion process",
+        "author": "Derrida B",
+        "year": 1998,
+        "journal": "Physics Reports",
+        "volume": "301",
+        "pages": "65-83",
+        "url": "https://arxiv.org/abs/cond-mat/9702058",
+        "licence": "Public Domain (>25 yr)"
+      },
+      {
+        "title": "Nonequilibrium steady states of matrix-product form: a solver's guide",
+        "author": "Blythe RA, Evans MR",
+        "year": 2007,
+        "journal": "J Phys A",
+        "volume": "40",
+        "pages": "R333-R441",
+        "url": "https://arxiv.org/abs/0706.1678",
+        "licence": "Free academic access"
+      }
+    ]
+  }
+}
