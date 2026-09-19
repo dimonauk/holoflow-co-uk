@@ -727,6 +727,7 @@ import { blenderTutorialPythonNumpyNs2dTurbulenceKraichnanBatchelorLeith1967Inve
 import { blenderTutorialPythonNumpyBakTangWiesenfeld1987AbelianSandpileSelfOrganisedCriticalityAvalanchePowerLawHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-bak-tang-wiesenfeld-1987-abelian-sandpile-self-organised-criticality-avalanche-power-law-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyAndersonLocalization2dTightBindingDisorderIprHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-anderson-localization-2d-tight-binding-disorder-ipr-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyHofstadterButterfly1976BlochElectronRationalFluxHarperEquationFractalCantorSpectrumStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-hofstadter-butterfly-1976-bloch-electron-rational-flux-harper-equation-fractal-cantor-spectrum-stage-floor-webxr";
+import { blenderTutorialPythonNumpyDlaDiffusionLimitedAggregationWittenSander1981FractalGrowthDendriticCrystalHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-dla-diffusion-limited-aggregation-witten-sander-1981-fractal-growth-dendritic-crystal-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1461,6 +1462,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyBakTangWiesenfeld1987AbelianSandpileSelfOrganisedCriticalityAvalanchePowerLawHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyAndersonLocalization2dTightBindingDisorderIprHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyHofstadterButterfly1976BlochElectronRationalFluxHarperEquationFractalCantorSpectrumStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyDlaDiffusionLimitedAggregationWittenSander1981FractalGrowthDendriticCrystalHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

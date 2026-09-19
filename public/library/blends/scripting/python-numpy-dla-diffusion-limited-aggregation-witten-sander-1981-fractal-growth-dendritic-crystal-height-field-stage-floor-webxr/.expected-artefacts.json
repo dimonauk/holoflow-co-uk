@@ -1,0 +1,71 @@
+{
+  "blend": "dla_cluster_floor.blend",
+  "glb": "dla_cluster_floor.glb",
+  "viewport_mp4": "../../videos/scripting/python-numpy-dla-diffusion-limited-aggregation-witten-sander-1981-fractal-growth-dendritic-crystal-height-field-stage-floor-webxr/viewport.mp4",
+  "screen_mp4": "../../videos/scripting/python-numpy-dla-diffusion-limited-aggregation-witten-sander-1981-fractal-growth-dendritic-crystal-height-field-stage-floor-webxr/screen.mp4",
+  "mesh": {
+    "name": "DLA_Cluster",
+    "verts": 16384,
+    "quads": 16129,
+    "shape_keys": ["Basis", "SK_Small", "SK_Mid", "SK_Inverse"],
+    "color_attribute": "Col",
+    "color_type": "FLOAT_COLOR",
+    "color_domain": "POINT"
+  },
+  "physics": {
+    "model": "2D on-lattice DLA, 4-connectivity",
+    "grid": "128×128",
+    "n_particles_basis": 2000,
+    "n_particles_small": 400,
+    "n_particles_mid": 1200,
+    "seed": 42,
+    "launch_offset": 5,
+    "kill_offset": 20,
+    "fractal_dimension": "D_f ≈ 1.71 (Meakin 1983)",
+    "height_fn": "arrival_order / n_particles × Z_SCALE",
+    "height_fn_inverse": "(1 - arrival_order / n_particles) × Z_SCALE for cluster cells"
+  },
+  "export": {
+    "format": "GLB",
+    "draco_level": 6,
+    "texture_format": "WEBP",
+    "y_up": true,
+    "morph_targets": true,
+    "vertex_colors": true
+  },
+  "cross_references": {
+    "tutorials": [
+      "/tutorials/blender-tutorial-python-numpy-bak-tang-wiesenfeld-1987-abelian-sandpile-self-organised-criticality-avalanche-power-law-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gray-scott-1984-pearson-1993-activator-depletion-turing-spot-worm-hole-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-kpz-kardar-parisi-zhang-1986-stochastic-surface-growth-universality-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-cahn-hilliard-phase-field-spinodal-decomposition-1958-height-field-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "title": "Witten & Sander 1981 — original DLA paper",
+        "url": "https://doi.org/10.1103/PhysRevLett.47.1400",
+        "licence": "Public Domain (>40 yr)",
+        "author": "T. A. Witten Jr., L. M. Sander"
+      },
+      {
+        "title": "Meakin 1983 — fractal dimension measurement of DLA",
+        "url": "https://doi.org/10.1103/PhysRevA.27.1495",
+        "licence": "Public Domain (>40 yr)",
+        "author": "Paul Meakin"
+      },
+      {
+        "title": "NumPy — numerical computing library",
+        "url": "https://github.com/numpy/numpy",
+        "licence": "BSD-3-Clause",
+        "author": "NumPy contributors"
+      },
+      {
+        "title": "Vicsek & Family 1984 — scaling of DLA clusters",
+        "url": "https://doi.org/10.1103/PhysRevLett.52.1669",
+        "licence": "Public Domain (>40 yr)",
+        "author": "Vicsek, Family"
+      }
+    ]
+  }
+}
