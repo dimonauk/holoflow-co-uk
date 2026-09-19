@@ -1,0 +1,47 @@
+{
+  "blend": "ns2d_turbulence_floor.blend",
+  "glb": "ns2d_turbulence_floor.glb",
+  "vertices": 16384,
+  "quads": 16129,
+  "shape_keys": ["Basis", "SK_Cascade", "SK_Condensed", "SK_Forced"],
+  "color_attribute": "NS2D_Vort",
+  "color_type": "FLOAT_COLOR",
+  "color_domain": "POINT",
+  "holoflow_category": "stage-floor",
+  "holoflow_facet": true,
+  "videos": [
+    "public/library/videos/scripting/python-numpy-2d-navier-stokes-turbulence-kraichnan-batchelor-leith-1967-inverse-cascade-pseudospectral-rk4-height-field-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-2d-navier-stokes-turbulence-kraichnan-batchelor-leith-1967-inverse-cascade-pseudospectral-rk4-height-field-stage-floor-webxr/screen.mp4"
+  ],
+  "cross_references": {
+    "outside_sources": [
+      {
+        "author": "Kraichnan RH",
+        "year": 1967,
+        "title": "Inertial ranges in two-dimensional turbulence",
+        "journal": "Physics of Fluids",
+        "volume": "10",
+        "pages": "1417-1423",
+        "doi": "10.1063/1.1762301",
+        "licence": "PD"
+      },
+      {
+        "author": "Harris CR et al.",
+        "year": 2020,
+        "title": "Array programming with NumPy",
+        "journal": "Nature",
+        "volume": "585",
+        "pages": "357-362",
+        "url": "https://numpy.org",
+        "licence": "BSD-3-Clause"
+      }
+    ],
+    "studio_surfaces": [
+      "/tutorials/blender-tutorial-python-numpy-complex-ginzburg-landau-pde-spiral-turbulence-benjamin-feir-defect-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gray-scott-1984-pearson-1993-activator-depletion-turing-spot-worm-hole-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-burgers-equation-1948-cole-hopf-exact-shock-formation-viscous-regularisation-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-kpz-kardar-parisi-zhang-1986-stochastic-surface-growth-universality-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-fitzhugh-nagumo-1961-excitable-media-trigger-wave-spiral-height-field-stage-floor-webxr"
+    ]
+  }
+}
