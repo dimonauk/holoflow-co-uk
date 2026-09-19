@@ -719,6 +719,7 @@ import { blenderTutorialPythonNumpyFisherKpp1937KolmogorovPetrovskyPiskunovPulle
 import { blenderTutorialPythonNumpyGrayScott1984Pearson1993ActivatorDepletionTuringSpotWormHoleHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-gray-scott-1984-pearson-1993-activator-depletion-turing-spot-worm-hole-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpySshSuSchriefferHeeger1979ZakPhaseTopologicalEdgeStatesSpectralFlowStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-ssh-su-schrieffer-heeger-1979-zak-phase-topological-edge-states-spectral-flow-stage-floor-webxr";
 import { blenderTutorialPythonNumpyHaldane1988ChernInsulatorBerryCurvatureTopologicalPhaseDiagramHoneycombHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-haldane-1988-chern-insulator-berry-curvature-topological-phase-diagram-honeycomb-height-field-stage-floor-webxr";
+import { blenderTutorialPythonNumpyKaneMele2005QuantumSpinHallZ2TopologicalInsulatorSpinHallCurvatureHoneycombHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-kane-mele-2005-quantum-spin-hall-z2-topological-insulator-spin-hall-curvature-honeycomb-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1445,6 +1446,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyGrayScott1984Pearson1993ActivatorDepletionTuringSpotWormHoleHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpySshSuSchriefferHeeger1979ZakPhaseTopologicalEdgeStatesSpectralFlowStageFloorWebxrEntry,
   blenderTutorialPythonNumpyHaldane1988ChernInsulatorBerryCurvatureTopologicalPhaseDiagramHoneycombHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyKaneMele2005QuantumSpinHallZ2TopologicalInsulatorSpinHallCurvatureHoneycombHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

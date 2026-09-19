@@ -1,0 +1,49 @@
+{
+  "slug": "python-numpy-kane-mele-2005-quantum-spin-hall-z2-topological-insulator-spin-hall-curvature-honeycomb-height-field-stage-floor-webxr",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "files": [
+    "blueprint.py",
+    "record.py",
+    "SCREEN-RECORDING-NOTES.md",
+    "README.md",
+    ".expected-artefacts.json",
+    "kane_mele_floor.blend",
+    "kane_mele_floor.glb"
+  ],
+  "video_placeholders": [
+    "public/library/videos/scripting/kane-mele-2005-quantum-spin-hall-z2-topological-insulator/viewport.mp4",
+    "public/library/videos/scripting/kane-mele-2005-quantum-spin-hall-z2-topological-insulator/screen.mp4"
+  ],
+  "mesh": {
+    "vertices": 16384,
+    "quads": 16129,
+    "shape_keys": ["Basis", "SK_StrongSOC", "SK_NearCrit", "SK_Trivial"],
+    "color_attribute": "KM_SpinBC"
+  },
+  "cross_references": {
+    "studio_surfaces": [
+      "/tutorials/blender-tutorial-python-numpy-haldane-1988-chern-insulator-berry-curvature-topological-phase-diagram-honeycomb-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ssh-su-schrieffer-heeger-1979-zak-phase-topological-edge-states-spectral-flow-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-tight-binding-2d-square-lattice-dispersion-fermi-surface-van-hove-singularity-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "authors": "Kane CL, Mele EJ",
+        "year": 2005,
+        "title": "Z2 Topological Order and the Quantum Spin Hall Effect",
+        "journal": "PRL 95:226801",
+        "doi": "10.1103/PhysRevLett.95.226801",
+        "licence": "PD"
+      },
+      {
+        "authors": "Asboth JK, Oroszlany L, Palyi A",
+        "year": 2016,
+        "title": "A Short Course on Topological Insulators",
+        "url": "https://arxiv.org/abs/1509.02295",
+        "licence": "CC-BY-4.0",
+        "related": "https://github.com/topocm/topocm_content"
+      }
+    ]
+  }
+}
