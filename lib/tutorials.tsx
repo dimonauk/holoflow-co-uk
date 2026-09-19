@@ -737,6 +737,7 @@ import { entry as blenderTutorialPythonNumpyWignerQuasiProbabilityDistribution19
 import { blenderTutorialPythonNumpyDrosselSchwabl1992ForestFireModelSelfOrganisedCriticalityFireClusterPowerLawHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-drossel-schwabl-1992-forest-fire-model-self-organised-criticality-fire-cluster-power-law-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyTasepTotallyAsymmetricExclusionProcessDerrida1998OpenBoundaryPhaseDiagramKpzSpaceTimeHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-tasep-totally-asymmetric-exclusion-process-derrida-1998-open-boundary-phase-diagram-kpz-space-time-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpySitePercolationSquareLatticeHoshenKopelman1976StaufferAharonyNewmanZiffPcFractalSpanningClusterHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-site-percolation-square-lattice-hoshen-kopelman-1976-stauffer-aharony-newman-ziff-p-c-fractal-spanning-cluster-height-field-stage-floor-webxr";
+import { blenderTutorialPythonNumpyNlseNonlinearSchrodinger1972ZakharovShabatSolitonCollisionAkhmedievBreatherPeregrineRogueWaveHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-nlse-nonlinear-schrodinger-1972-zakharov-shabat-soliton-collision-akhmediev-breather-peregrine-rogue-wave-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1481,6 +1482,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyDrosselSchwabl1992ForestFireModelSelfOrganisedCriticalityFireClusterPowerLawHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyTasepTotallyAsymmetricExclusionProcessDerrida1998OpenBoundaryPhaseDiagramKpzSpaceTimeHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpySitePercolationSquareLatticeHoshenKopelman1976StaufferAharonyNewmanZiffPcFractalSpanningClusterHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyNlseNonlinearSchrodinger1972ZakharovShabatSolitonCollisionAkhmedievBreatherPeregrineRogueWaveHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

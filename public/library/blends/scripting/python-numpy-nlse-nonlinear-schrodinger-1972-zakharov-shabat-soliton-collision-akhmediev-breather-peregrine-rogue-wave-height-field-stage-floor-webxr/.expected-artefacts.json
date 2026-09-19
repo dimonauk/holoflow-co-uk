@@ -1,0 +1,39 @@
+{
+  "blend": "nlse_soliton_floor.blend",
+  "glb": "nlse_soliton_floor.glb",
+  "videos": [
+    "public/library/videos/scripting/python-numpy-nlse-nonlinear-schrodinger-1972-zakharov-shabat-soliton-collision-akhmediev-breather-peregrine-rogue-wave-height-field-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-nlse-nonlinear-schrodinger-1972-zakharov-shabat-soliton-collision-akhmediev-breather-peregrine-rogue-wave-height-field-stage-floor-webxr/screen.mp4"
+  ],
+  "shape_keys": ["Basis", "SK_Akhmediev", "SK_KM", "SK_Peregrine"],
+  "vertex_count": 16384,
+  "quad_count": 16129,
+  "color_attribute": "NLSE_Amp",
+  "blender_version": "5.1",
+  "export_format": "GLB",
+  "draco_level": 6,
+  "texture_format": "WEBP",
+  "licence": "CC0",
+  "cross_references": {
+    "studio": [
+      "/tutorials/blender-tutorial-python-numpy-gross-pitaevskii-bec-rotating-vortex-lattice-abrikosov-imaginary-time-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-korteweg-de-vries-1895-soliton-collision-pseudospectral-rk4-space-time-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-complex-ginzburg-landau-pde-spiral-turbulence-benjamin-feir-defect-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-kpz-kardar-parisi-zhang-1986-stochastic-surface-growth-universality-height-field-stage-floor-webxr"
+    ],
+    "external": [
+      {
+        "title": "Zakharov, V.E. & Shabat, A.B. (1972) — Exact theory of two-dimensional self-focusing and one-dimensional self-modulation of waves in nonlinear media",
+        "url": "https://www.jetp.ac.ru/cgi-bin/dn/e_034_01_0062.pdf",
+        "licence": "Public Domain (>50 yr, Sov. Phys. JETP)",
+        "author": "Vladimir E. Zakharov and Alexei B. Shabat"
+      },
+      {
+        "title": "Peregrine, D.H. (1983) — Water waves, nonlinear Schrödinger equations and their solutions",
+        "url": "https://www.cambridge.org/core/journals/anziam-journal/article/water-waves-nonlinear-schrodinger-equations-and-their-solutions/",
+        "licence": "Public Domain (>30 yr, J. Austral. Math. Soc. Ser. B 25:16-43)",
+        "author": "Howell D. Peregrine"
+      }
+    ]
+  }
+}
