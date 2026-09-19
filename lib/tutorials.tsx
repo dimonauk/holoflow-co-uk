@@ -725,6 +725,7 @@ import { blenderTutorialPythonNumpyXyModel2dBerezinskiiKosterlitzThouless1971197
 import { blenderTutorialPythonNumpyPottsModel3State2dWu1982SelfDualExactTcCheckerboardMetropolisThreeColorDomainHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-potts-model-3-state-2d-wu-1982-self-dual-exact-tc-checkerboard-metropolis-three-color-domain-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyNs2dTurbulenceKraichnanBatchelorLeith1967InverseCascadePseudospectralRk4HeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-2d-navier-stokes-turbulence-kraichnan-batchelor-leith-1967-inverse-cascade-pseudospectral-rk4-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyBakTangWiesenfeld1987AbelianSandpileSelfOrganisedCriticalityAvalanchePowerLawHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-bak-tang-wiesenfeld-1987-abelian-sandpile-self-organised-criticality-avalanche-power-law-height-field-stage-floor-webxr";
+import { blenderTutorialPythonNumpyAndersonLocalization2dTightBindingDisorderIprHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-anderson-localization-2d-tight-binding-disorder-ipr-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1457,6 +1458,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyPottsModel3State2dWu1982SelfDualExactTcCheckerboardMetropolisThreeColorDomainHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyNs2dTurbulenceKraichnanBatchelorLeith1967InverseCascadePseudospectralRk4HeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyBakTangWiesenfeld1987AbelianSandpileSelfOrganisedCriticalityAvalanchePowerLawHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyAndersonLocalization2dTightBindingDisorderIprHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

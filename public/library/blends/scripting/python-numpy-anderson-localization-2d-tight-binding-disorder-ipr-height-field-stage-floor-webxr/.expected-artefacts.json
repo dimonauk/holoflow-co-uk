@@ -1,0 +1,37 @@
+{
+  "blends": ["anderson_localization_floor.blend"],
+  "glbs": ["anderson_localization_floor.glb"],
+  "videos": ["viewport.mp4", "screen.mp4"],
+  "shape_keys": ["Basis", "SK_Medium", "SK_Strong", "SK_MaxIPR"],
+  "vertex_attributes": ["Col"],
+  "cross_references": {
+    "studio_tutorials": [
+      "/tutorials/blender-tutorial-python-numpy-tight-binding-2d-square-lattice-dispersion-fermi-surface-van-hove-singularity-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ssh-su-schrieffer-heeger-1979-zak-phase-topological-edge-states-spectral-flow-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-haldane-1988-chern-insulator-berry-curvature-chern-number-phase-diagram-hexagonal-bz-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "title": "Anderson 1958 — Absence of Diffusion in Certain Random Lattices",
+        "url": "https://link.aps.org/doi/10.1103/PhysRev.109.1492",
+        "licence": "Public Domain (>65 yr)",
+        "related": ["Thouless 1972 J Phys C 5:77 — one-parameter scaling precursor"]
+      },
+      {
+        "title": "Abrahams-Anderson-Licciardello-Ramakrishnan 1979 — Scaling Theory of Localisation",
+        "url": "https://link.aps.org/doi/10.1103/PhysRevLett.42.673",
+        "licence": "Public Domain (>45 yr)",
+        "related": ["Lee & Ramakrishnan 1985 RMP 57:287 — disorder review"]
+      },
+      {
+        "title": "NumPy — Harris et al 2020 Nature 585:357-362",
+        "url": "https://numpy.org",
+        "licence": "BSD-3-Clause",
+        "related": ["SciPy (BSD-3-Clause) — scipy.sparse.linalg.eigsh for larger systems"]
+      }
+    ]
+  },
+  "blender_version": "5.1",
+  "licence": "CC0"
+}
