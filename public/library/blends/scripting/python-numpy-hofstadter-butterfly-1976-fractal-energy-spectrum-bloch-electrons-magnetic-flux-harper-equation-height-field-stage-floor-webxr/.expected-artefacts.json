@@ -1,0 +1,42 @@
+{
+  "slug": "python-numpy-hofstadter-butterfly-1976-fractal-energy-spectrum-bloch-electrons-magnetic-flux-harper-equation-height-field-stage-floor-webxr",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "artefacts": [
+    "hofstadter_floor.blend",
+    "hofstadter_floor.glb",
+    "blueprint.py",
+    "record.py",
+    "viewport.mp4",
+    "screen.mp4"
+  ],
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-haldane-1988-chern-insulator-berry-curvature-topological-phase-diagram-honeycomb-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-kane-mele-2005-quantum-spin-hall-z2-topological-insulator-spin-hall-curvature-honeycomb-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-tight-binding-2d-square-lattice-dispersion-fermi-surface-van-hove-singularity-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ssh-su-schrieffer-heeger-1979-zak-phase-topological-edge-states-spectral-flow-stage-floor-webxr"
+    ],
+    "external": [
+      {
+        "title": "Hofstadter DR 1976 — Energy levels and wave functions of Bloch electrons in rational and irrational magnetic fields",
+        "url": "https://doi.org/10.1103/PhysRevB.14.2239",
+        "licence": "PD",
+        "author": "Douglas R. Hofstadter"
+      },
+      {
+        "title": "Thouless DJ, Kohmoto M, Nightingale MP, den Nijs M 1982 — Quantized Hall Conductance in a Two-Dimensional Periodic Potential",
+        "url": "https://doi.org/10.1103/PhysRevLett.49.405",
+        "licence": "PD",
+        "author": "Thouless, Kohmoto, Nightingale, den Nijs"
+      },
+      {
+        "title": "NumPy",
+        "url": "https://numpy.org",
+        "licence": "BSD-3-Clause",
+        "author": "NumPy Contributors"
+      }
+    ]
+  }
+}

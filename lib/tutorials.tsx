@@ -723,6 +723,7 @@ import { blenderTutorialPythonNumpyKaneMele2005QuantumSpinHallZ2TopologicalInsul
 import { blenderTutorialPythonNumpyIsingModel2dMetropolisMonteCarloOnsagerExactTcFerromagneticDomainsHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyXyModel2dBerezinskiiKosterlitzThouless19711973VortexAntivortexUnbindingTopologicalPhaseTransitionHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-xy-model-2d-berezinskii-kosterlitz-thouless-1971-1973-vortex-antivortex-unbinding-topological-phase-transition-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyPottsModel3State2dWu1982SelfDualExactTcCheckerboardMetropolisThreeColorDomainHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-potts-model-3-state-2d-wu-1982-self-dual-exact-tc-checkerboard-metropolis-three-color-domain-height-field-stage-floor-webxr";
+import { blenderTutorialPythonNumpyHofstadterButterfly1976FractalEnergySpectrumBlochElectronsMagneticFluxHarperEquationHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-hofstadter-butterfly-1976-fractal-energy-spectrum-bloch-electrons-magnetic-flux-harper-equation-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1453,6 +1454,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyIsingModel2dMetropolisMonteCarloOnsagerExactTcFerromagneticDomainsHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyXyModel2dBerezinskiiKosterlitzThouless19711973VortexAntivortexUnbindingTopologicalPhaseTransitionHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyPottsModel3State2dWu1982SelfDualExactTcCheckerboardMetropolisThreeColorDomainHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyHofstadterButterfly1976FractalEnergySpectrumBlochElectronsMagneticFluxHarperEquationHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);
