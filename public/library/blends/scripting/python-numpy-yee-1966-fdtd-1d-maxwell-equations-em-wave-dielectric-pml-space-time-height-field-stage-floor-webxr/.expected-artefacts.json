@@ -1,0 +1,79 @@
+{
+  "slug": "python-numpy-yee-1966-fdtd-1d-maxwell-equations-em-wave-dielectric-pml-space-time-height-field-stage-floor-webxr",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "files": [
+    "fdtd_field_floor.blend",
+    "fdtd_field_floor.glb",
+    "blueprint.py",
+    "record.py",
+    "SCREEN-RECORDING-NOTES.md",
+    "viewport.mp4",
+    "screen.mp4"
+  ],
+  "mesh": {
+    "vertices": 16384,
+    "quads": 16129,
+    "object_name": "fdtd_field_floor",
+    "mesh_name": "FDTD_Efield",
+    "shape_keys": ["Basis", "SK_Dielectric", "SK_Cavity", "SK_PML"],
+    "colour_attribute": "Col",
+    "colour_type": "FLOAT_COLOR",
+    "colour_domain": "POINT"
+  },
+  "export": {
+    "format": "GLB",
+    "draco_level": 6,
+    "image_format": "WEBP",
+    "export_morph": true,
+    "export_colors": true,
+    "y_up_applied": true
+  },
+  "simulation": {
+    "model": "1D FDTD Yee 1966 staggered grid",
+    "equations": "Faraday + Ampere TM mode",
+    "integrator": "Yee leapfrog",
+    "dt": 0.45,
+    "dx": 1.0,
+    "cfl": 0.45,
+    "grid": "128 spatial cells",
+    "snapshots": "128 time steps stored per scenario",
+    "height_encoding": "0.5 + 0.5 * Ez / E_max",
+    "colour_encoding": "|Ez| / E_max mapped cobalt→amber",
+    "shape_keys": {
+      "Basis": "Free space, PEC walls, Gaussian pulse",
+      "SK_Dielectric": "Half-space eps_r=4 at x=64, Fresnel r=-1/3 t=2/3",
+      "SK_Cavity": "PEC cavity walls at x=16 and x=112, resonance build-up",
+      "SK_PML": "12-cell CPML absorbing boundaries, clean absorption"
+    }
+  },
+  "cross_references": {
+    "studio_tutorials": [
+      "/tutorials/blender-tutorial-python-numpy-tdse-split-operator-fft-double-slit-quantum-interference-webxr",
+      "/tutorials/blender-tutorial-python-numpy-korteweg-de-vries-1895-soliton-collision-pseudospectral-rk4-space-time-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-chladni-figures-standing-wave-eigenmodes-nodal-lines-height-field-webxr",
+      "/tutorials/blender-tutorial-python-numpy-fraunhofer-diffraction-fft-aperture-psf-airy-disk-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-burgers-equation-1948-cole-hopf-exact-shock-formation-viscous-regularisation-height-field-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "title": "Yee 1966 — Numerical solution of Maxwell's equations in isotropic media",
+        "url": "https://doi.org/10.1109/TAP.1966.1138693",
+        "licence": "PD",
+        "author": "K. S. Yee"
+      },
+      {
+        "title": "Berenger 1994 — A perfectly matched layer for electromagnetic waves",
+        "url": "https://doi.org/10.1006/jcph.1994.1159",
+        "licence": "PD",
+        "author": "J.-P. Berenger"
+      },
+      {
+        "title": "MEEP — MIT Photonics FDTD Software",
+        "url": "https://github.com/NanoComp/meep",
+        "licence": "MIT",
+        "author": "MIT Photonics Group and contributors"
+      }
+    ]
+  }
+}
