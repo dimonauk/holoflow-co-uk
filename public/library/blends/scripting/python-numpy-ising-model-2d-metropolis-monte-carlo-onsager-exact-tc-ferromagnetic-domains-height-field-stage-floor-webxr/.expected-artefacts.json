@@ -1,0 +1,103 @@
+{
+  "slug": "python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr",
+  "topic": "scripting",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "generated_files": [
+    "ising_spin_floor.blend",
+    "ising_spin_floor.glb"
+  ],
+  "source_files": [
+    "blueprint.py",
+    "record.py",
+    "SCREEN-RECORDING-NOTES.md",
+    "README.md"
+  ],
+  "video_files": [
+    "public/library/videos/scripting/python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr/screen.mp4"
+  ],
+  "mesh": {
+    "vertices": 16384,
+    "quad_faces": 16129,
+    "colour_attribute": "Ising_Spin",
+    "colour_domain": "POINT",
+    "colour_encoding": "FLOAT_COLOR"
+  },
+  "shape_keys": [
+    { "name": "Basis",       "temperature_ratio": 0.50, "physics": "deep ferromagnet" },
+    { "name": "SK_Critical", "temperature_ratio": 1.00, "physics": "Onsager critical point" },
+    { "name": "SK_Hot",      "temperature_ratio": 1.50, "physics": "paramagnet" },
+    { "name": "SK_Quench",   "temperature_ratio": 0.25, "physics": "quench from T=inf, domain coarsening" }
+  ],
+  "physics": {
+    "model": "2D Ising ferromagnet",
+    "algorithm": "checkerboard Metropolis-Hastings",
+    "Tc_exact": "2J / ln(1 + sqrt(2)) = 2.2692 J/kB (Onsager 1944)",
+    "critical_exponents": {
+      "beta": "1/8",
+      "gamma": "7/4",
+      "nu": "1",
+      "eta": "1/4",
+      "alpha": "0 (log divergence)"
+    },
+    "universality_class": "2D Ising (Z2 symmetry, d=2)"
+  },
+  "export": {
+    "compression": "Draco-6",
+    "textures": "WebP",
+    "up_axis": "+Y",
+    "export_morph": true,
+    "export_colors": true
+  },
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-haldane-1988-chern-insulator-berry-curvature-topological-phase-diagram-honeycomb-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ssh-su-schrieffer-heeger-1979-zak-phase-topological-edge-states-spectral-flow-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gierer-meinhardt-activator-inhibitor-turing-morphogenesis-1972-spot-stripe-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gray-scott-1984-pearson-1993-activator-depletion-turing-spot-worm-hole-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-allen-cahn-phase-field-mean-curvature-motion-allen-cahn-1979-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "author": "Ising E",
+        "year": 1925,
+        "title": "Beitrag zur Theorie des Ferro- und Paramagnetismus",
+        "journal": "Z. Physik",
+        "volume": "31",
+        "pages": "253-258",
+        "licence": "PD (>100 yr)",
+        "note": "Original 1D chain paper"
+      },
+      {
+        "author": "Onsager L",
+        "year": 1944,
+        "title": "Crystal statistics I. A two-dimensional model with an order-disorder transition",
+        "journal": "Physical Review",
+        "volume": "65",
+        "pages": "117-149",
+        "doi": "10.1103/PhysRev.65.117",
+        "licence": "PD (>80 yr)",
+        "note": "Exact 2D solution, Tc = 2J/ln(1+sqrt(2))"
+      },
+      {
+        "author": "Metropolis N, Rosenbluth AW, Rosenbluth MN, Teller AH, Teller E",
+        "year": 1953,
+        "title": "Equation of state calculations by fast computing machines",
+        "journal": "Journal of Chemical Physics",
+        "volume": "21",
+        "pages": "1087-1092",
+        "doi": "10.1063/1.1699114",
+        "licence": "PD (>70 yr)",
+        "note": "Original Metropolis algorithm"
+      },
+      {
+        "name": "NumPy",
+        "licence": "BSD-3-Clause",
+        "url": "https://numpy.org",
+        "citation": "Harris et al. 2020 Nature 585:357-362",
+        "related": "https://github.com/scipy/scipy (SciPy BSD-3-Clause)"
+      }
+    ]
+  }
+}
