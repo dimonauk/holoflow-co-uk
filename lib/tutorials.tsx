@@ -730,6 +730,7 @@ import { blenderTutorialPythonNumpyHofstadterButterfly1976BlochElectronRationalF
 import { blenderTutorialPythonNumpyDlaDiffusionLimitedAggregationWittenSander1981FractalGrowthDendriticCrystalHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-dla-diffusion-limited-aggregation-witten-sander-1981-fractal-growth-dendritic-crystal-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyKuramoto2dPhaseOscillatorsSynchronisationSpiralWaveChimeraStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-kuramoto-2d-phase-oscillators-synchronisation-spiral-wave-chimera-stage-floor-webxr";
 import { blenderTutorialPythonNumpyGueGaussianUnitaryEnsembleMontgomery1973PairCorrelationSineKernelWignerDysonBetaFamilyStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-gue-gaussian-unitary-ensemble-montgomery-1973-pair-correlation-sine-kernel-wigner-dyson-beta-family-stage-floor-webxr";
+import { entry as blenderTutorialGnSimulationZoneNBodyGravityLeapfrogOrbitalDancePoiWebxrEntry } from "components/tutorials/entries/blender-tutorial-gn-simulation-zone-n-body-gravity-leapfrog-orbital-dance-poi-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1467,6 +1468,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyDlaDiffusionLimitedAggregationWittenSander1981FractalGrowthDendriticCrystalHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyKuramoto2dPhaseOscillatorsSynchronisationSpiralWaveChimeraStageFloorWebxrEntry,
   blenderTutorialPythonNumpyGueGaussianUnitaryEnsembleMontgomery1973PairCorrelationSineKernelWignerDysonBetaFamilyStageFloorWebxrEntry,
+  blenderTutorialGnSimulationZoneNBodyGravityLeapfrogOrbitalDancePoiWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);
