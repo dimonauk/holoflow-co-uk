@@ -1,0 +1,109 @@
+{
+  "slug": "python-numpy-drossel-schwabl-1992-forest-fire-model-self-organised-criticality-fire-cluster-power-law-height-field-stage-floor-webxr",
+  "topic": "scripting",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "generated_files": [
+    "drossel_schwabl_forest_floor.blend",
+    "drossel_schwabl_forest_floor.glb"
+  ],
+  "source_files": [
+    "blueprint.py",
+    "record.py",
+    "SCREEN-RECORDING-NOTES.md",
+    "README.md"
+  ],
+  "video_files": [
+    "public/library/videos/scripting/python-numpy-drossel-schwabl-1992-forest-fire-model-self-organised-criticality-fire-cluster-power-law-height-field-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-drossel-schwabl-1992-forest-fire-model-self-organised-criticality-fire-cluster-power-law-height-field-stage-floor-webxr/screen.mp4"
+  ],
+  "mesh": {
+    "vertices": 16384,
+    "quad_faces": 16129,
+    "colour_attribute": "FF_State",
+    "colour_domain": "POINT",
+    "colour_encoding": "FLOAT_COLOR",
+    "colour_stops": [
+      { "position": 0.0, "label": "EMPTY / ash", "hex": "cobalt" },
+      { "position": 0.5, "label": "TREE / living forest", "hex": "green" },
+      { "position": 1.0, "label": "BURNING / active fire", "hex": "amber" }
+    ]
+  },
+  "shape_keys": [
+    {
+      "name": "Basis",
+      "physics": "SOC steady state — p=0.010 f=5e-5 3000 steps from 50% random seed"
+    },
+    {
+      "name": "SK_LowP",
+      "physics": "Sparse savanna — p=0.003 f=5e-5 2000 steps; fire clusters small"
+    },
+    {
+      "name": "SK_HighP",
+      "physics": "Dense forest — p=0.050 f=5e-5 4000 steps; infrequent large fires"
+    },
+    {
+      "name": "SK_AllTrees",
+      "physics": "Maximum saturation — every site = TREE, no fire yet"
+    }
+  ],
+  "physics": {
+    "model": "Drossel-Schwabl Forest Fire Model (1992)",
+    "mechanism": "SOC — competition between stochastic regrowth (p) and lightning ignition (f)",
+    "states": ["EMPTY=0", "TREE=1", "BURNING=2"],
+    "neighbourhood": "4-connected von Neumann",
+    "update": "synchronous — old state read → new state written simultaneously",
+    "soc_condition": "p << 1, f << 1, p/f >> 1 (two-time-scale separation)",
+    "fire_cluster_power_law_exponent_tau": "approx 1.5 (DS universality class)",
+    "comparison_to_btw": "DS is dissipative (trees created/destroyed); BTW is conservative (grains conserved)",
+    "basis_p": 0.010,
+    "basis_f": 5e-5,
+    "basis_steps": 3000,
+    "lattice": "128x128 with synchronous wrap-around update (periodic neighbourhood for fire spread)"
+  },
+  "export": {
+    "compression": "Draco-6",
+    "textures": "WebP",
+    "up_axis": "+Y",
+    "export_morph": true,
+    "export_colors": true
+  },
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-bak-tang-wiesenfeld-1987-abelian-sandpile-self-organised-criticality-avalanche-power-law-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-dla-diffusion-limited-aggregation-witten-sander-1981-fractal-growth-dendritic-crystal-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gray-scott-1984-pearson-1993-activator-depletion-turing-spot-worm-hole-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-lenia-continuous-cellular-automaton-fft-soliton-webxr"
+    ],
+    "outside_sources": [
+      {
+        "author": "Drossel B, Schwabl F",
+        "year": 1992,
+        "title": "Self-Organized Critical Forest-Fire Model",
+        "journal": "Physical Review Letters",
+        "volume": "69",
+        "issue": "11",
+        "pages": "1629-1632",
+        "doi": "10.1103/PhysRevLett.69.1629",
+        "licence": "PD (>30 yr)",
+        "note": "Original DS model — introduces three-state SOC CA with lightning and regrowth",
+        "url": "https://link.aps.org/doi/10.1103/PhysRevLett.69.1629",
+        "related_projects": [
+          "https://github.com/numpy/numpy (NumPy, BSD-3-Clause)",
+          "https://github.com/scipy/scipy (SciPy, BSD-3-Clause)"
+        ]
+      },
+      {
+        "name": "NumPy",
+        "licence": "BSD-3-Clause",
+        "url": "https://numpy.org",
+        "citation": "Harris CR et al. 2020 Nature 585:357-362 DOI 10.1038/s41586-020-2649-2",
+        "related_projects": [
+          "https://github.com/scipy/scipy (SciPy, BSD-3-Clause)",
+          "https://github.com/matplotlib/matplotlib (Matplotlib, PSF/BSD)"
+        ]
+      }
+    ]
+  }
+}
