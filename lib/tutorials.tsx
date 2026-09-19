@@ -722,6 +722,7 @@ import { blenderTutorialPythonNumpyHaldane1988ChernInsulatorBerryCurvatureTopolo
 import { blenderTutorialPythonNumpyKaneMele2005QuantumSpinHallZ2TopologicalInsulatorSpinHallCurvatureHoneycombHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-kane-mele-2005-quantum-spin-hall-z2-topological-insulator-spin-hall-curvature-honeycomb-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyIsingModel2dMetropolisMonteCarloOnsagerExactTcFerromagneticDomainsHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyXyModel2dBerezinskiiKosterlitzThouless19711973VortexAntivortexUnbindingTopologicalPhaseTransitionHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-xy-model-2d-berezinskii-kosterlitz-thouless-1971-1973-vortex-antivortex-unbinding-topological-phase-transition-height-field-stage-floor-webxr";
+import { blenderTutorialPythonNumpyPottsModel3State2dWu1982SelfDualExactTcCheckerboardMetropolisThreeColorDomainHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-potts-model-3-state-2d-wu-1982-self-dual-exact-tc-checkerboard-metropolis-three-color-domain-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1451,6 +1452,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyKaneMele2005QuantumSpinHallZ2TopologicalInsulatorSpinHallCurvatureHoneycombHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyIsingModel2dMetropolisMonteCarloOnsagerExactTcFerromagneticDomainsHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyXyModel2dBerezinskiiKosterlitzThouless19711973VortexAntivortexUnbindingTopologicalPhaseTransitionHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyPottsModel3State2dWu1982SelfDualExactTcCheckerboardMetropolisThreeColorDomainHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

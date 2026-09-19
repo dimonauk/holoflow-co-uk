@@ -1,0 +1,126 @@
+{
+  "slug": "python-numpy-potts-model-3-state-2d-wu-1982-self-dual-exact-tc-checkerboard-metropolis-three-color-domain-height-field-stage-floor-webxr",
+  "topic": "scripting",
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "generated_files": [
+    "potts3_floor.blend",
+    "potts3_floor.glb"
+  ],
+  "source_files": [
+    "blueprint.py",
+    "record.py",
+    "SCREEN-RECORDING-NOTES.md",
+    "README.md"
+  ],
+  "video_files": [
+    "public/library/videos/scripting/python-numpy-potts-model-3-state-2d-wu-1982-self-dual-exact-tc-checkerboard-metropolis-three-color-domain-height-field-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-potts-model-3-state-2d-wu-1982-self-dual-exact-tc-checkerboard-metropolis-three-color-domain-height-field-stage-floor-webxr/screen.mp4"
+  ],
+  "mesh": {
+    "vertices": 16384,
+    "quad_faces": 16129,
+    "colour_attribute": "Potts3_State",
+    "colour_domain": "POINT",
+    "colour_encoding": "FLOAT_COLOR"
+  },
+  "shape_keys": [
+    {
+      "name": "Basis",
+      "T_over_Tc": 0.50,
+      "T_Jkb": 0.4975,
+      "physics": "quasi-ordered, large three-color domains, sharp domain walls"
+    },
+    {
+      "name": "SK_Critical",
+      "T_over_Tc": 1.00,
+      "T_Jkb": 0.9950,
+      "physics": "critical point c=4/5 CFT, fractal mosaic, G(r) ~ r^{-(1-eta)}, eta=4/15"
+    },
+    {
+      "name": "SK_HotCrit",
+      "T_over_Tc": 1.50,
+      "T_Jkb": 1.4925,
+      "physics": "above Tc, short-range clusters, exponential correlations"
+    },
+    {
+      "name": "SK_HighT",
+      "T_over_Tc": 3.00,
+      "T_Jkb": 2.9850,
+      "physics": "fully disordered, equal populations of all three states"
+    }
+  ],
+  "physics": {
+    "model": "2D classical q=3 Potts model on square lattice",
+    "Hamiltonian": "H = -J sum_{<ij>} delta(sigma_i, sigma_j)",
+    "states": "sigma_i in {0, 1, 2}",
+    "algorithm": "checkerboard Metropolis, proposal uniform from {0,1,2}, N^2/2 decisions per half-sweep",
+    "Tc": "J / ln(1 + sqrt(3)) = 0.9950 J/k_B (Wu 1982 Rev. Mod. Phys. 54:235)",
+    "transition": "second-order (continuous), CFT central charge c = 4/5",
+    "critical_exponents": {
+      "beta": "1/9 (magnetisation)",
+      "gamma": "13/9 (susceptibility)",
+      "nu": "5/6 (correlation length)",
+      "eta": "4/15 (anomalous dimension)"
+    },
+    "first_order_boundary": "q >= 5 gives discontinuous (first-order) transition; q=2,3,4 continuous",
+    "height_field": "sigma/(q-1), mapped to [0, Z_SCALE]; 3 distinct levels → terrace landscape"
+  },
+  "export": {
+    "compression": "Draco-6",
+    "textures": "WebP",
+    "up_axis": "+Y",
+    "export_morph": true,
+    "export_colors": true
+  },
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-xy-model-2d-berezinskii-kosterlitz-thouless-1971-1973-vortex-antivortex-unbinding-topological-phase-transition-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-haldane-1988-chern-insulator-berry-curvature-topological-phase-diagram-honeycomb-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-kpz-kardar-parisi-zhang-1986-stochastic-interface-growth-ew-kpz-universality-class-hopf-cole-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-abelian-sandpile-bak-tang-wiesenfeld-1987-soc-chip-firing-height-field-stage-floor-webxr"
+    ],
+    "outside_sources": [
+      {
+        "author": "Potts RB",
+        "year": 1952,
+        "title": "Some generalized order-disorder transformations",
+        "journal": "Proceedings of the Cambridge Philosophical Society",
+        "volume": "48",
+        "pages": "106-109",
+        "doi": "10.1017/S0305004100027419",
+        "licence": "PD (>70 yr)",
+        "note": "Original paper introducing the q-state generalisation of the Ising model"
+      },
+      {
+        "author": "Wu FY",
+        "year": 1982,
+        "title": "The Potts model",
+        "journal": "Reviews of Modern Physics",
+        "volume": "54",
+        "pages": "235-268",
+        "doi": "10.1103/RevModPhys.54.235",
+        "licence": "equations CC0",
+        "note": "Canonical review; derives self-dual Tc = J/ln(1+sqrt(q)) and collects all known exact results"
+      },
+      {
+        "author": "Nienhuis B",
+        "year": 1982,
+        "title": "Exact critical point and critical exponents of O(n) models in two dimensions",
+        "journal": "Physical Review Letters",
+        "volume": "49",
+        "pages": "1062-1065",
+        "doi": "10.1103/PhysRevLett.49.1062",
+        "licence": "PD (>40 yr)",
+        "note": "Exact beta=1/9, nu=5/6, eta=4/15 for q=3 Potts from conformal field theory"
+      },
+      {
+        "name": "NumPy",
+        "licence": "BSD-3-Clause",
+        "url": "https://numpy.org",
+        "citation": "Harris et al. 2020 Nature 585:357-362"
+      }
+    ]
+  }
+}
