@@ -1,0 +1,48 @@
+{
+  "blend": "gue_spacing_floor.blend",
+  "glb": "gue_spacing_floor.glb",
+  "vertices": 16384,
+  "quads": 16129,
+  "shape_keys": ["Basis", "SK_GOE", "SK_MC", "SK_Poisson"],
+  "colour_attribute": "GUE_K2",
+  "colour_domain": "POINT",
+  "colour_encoding": "FLOAT_COLOR",
+  "colour_palette": ["cobalt #071624", "amber #faa00d"],
+  "colour_semantics": "beta value: cobalt=0 (Poisson-like), amber=4 (GSE, most rigid)",
+  "videos": [
+    "../../videos/scripting/python-numpy-gue-gaussian-unitary-ensemble-montgomery-1973-pair-correlation-sine-kernel-wigner-dyson-beta-family-stage-floor-webxr/viewport.mp4",
+    "../../videos/scripting/python-numpy-gue-gaussian-unitary-ensemble-montgomery-1973-pair-correlation-sine-kernel-wigner-dyson-beta-family-stage-floor-webxr/screen.mp4"
+  ],
+  "blender_version": "5.1",
+  "licence": "CC0",
+  "holoflow_category": "stage-floor",
+  "holoflow_facet": true,
+  "cross_references": {
+    "studio": [
+      "/tutorials/blender-tutorial-python-numpy-wigner-semicircle-goe-random-matrix-eigenvalue-level-repulsion-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-anderson-localization-2d-tight-binding-disorder-ipr-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-hofstadter-butterfly-1976-bloch-electron-rational-flux-harper-equation-fractal-cantor-spectrum-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-riemann-zeta-critical-strip-nontrivial-zeros-euler-product-stage-floor-webxr"
+    ],
+    "outside": [
+      {
+        "title": "Dyson 1962 — Statistical Theory of Energy Levels I",
+        "url": "https://doi.org/10.1063/1.1703773",
+        "licence": "Public Domain",
+        "author": "Freeman J. Dyson"
+      },
+      {
+        "title": "Montgomery 1973 — Pair correlation of Riemann zeta zeros",
+        "url": "https://doi.org/10.1090/pspum/024/9944",
+        "licence": "Public Domain",
+        "author": "Hugh L. Montgomery"
+      },
+      {
+        "title": "NumPy (BSD-3-Clause)",
+        "url": "https://github.com/numpy/numpy",
+        "licence": "BSD-3-Clause",
+        "author": "NumPy Contributors"
+      }
+    ]
+  }
+}
