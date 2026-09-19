@@ -717,6 +717,7 @@ import { entry as blenderTutorialPythonNumpyFitzHughNagumo1961ExcitableMediaTrig
 import { entry as blenderTutorialPythonNumpySchnakenberg1979ActivatorSubstrateTuringInstabilitySpotsStripesHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-schnakenberg-1979-activator-substrate-turing-instability-spots-stripes-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyFisherKpp1937KolmogorovPetrovskyPiskunovPulledWaveBistableAlleeEtd1SpectralHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-fisher-kpp-1937-kolmogorov-petrovsky-piskunov-pulled-wave-bistable-allee-etd1-spectral-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyGrayScott1984Pearson1993ActivatorDepletionTuringSpotWormHoleHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-gray-scott-1984-pearson-1993-activator-depletion-turing-spot-worm-hole-height-field-stage-floor-webxr";
+import { blenderTutorialPythonNumpySshSuSchriefferHeeger1979ZakPhaseTopologicalEdgeStatesSpectralFlowStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-ssh-su-schrieffer-heeger-1979-zak-phase-topological-edge-states-spectral-flow-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1441,6 +1442,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpySchnakenberg1979ActivatorSubstrateTuringInstabilitySpotsStripesHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyFisherKpp1937KolmogorovPetrovskyPiskunovPulledWaveBistableAlleeEtd1SpectralHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyGrayScott1984Pearson1993ActivatorDepletionTuringSpotWormHoleHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpySshSuSchriefferHeeger1979ZakPhaseTopologicalEdgeStatesSpectralFlowStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

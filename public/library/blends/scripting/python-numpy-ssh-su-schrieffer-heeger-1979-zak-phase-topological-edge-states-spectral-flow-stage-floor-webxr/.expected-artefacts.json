@@ -1,0 +1,99 @@
+{
+  "blend": "ssh_spectrum_floor.blend",
+  "glb": "ssh_spectrum_floor.glb",
+  "videos": ["viewport.mp4", "screen.mp4"],
+  "blender_version": "5.1",
+  "grid": "128x128",
+  "vertices": 16384,
+  "quads": 16129,
+  "shape_keys": ["Basis", "SK_Periodic", "SK_NNN", "SK_SymBreak"],
+  "vertex_attributes": ["SSH_Eig"],
+  "parameters": {
+    "N_CELLS":      64,
+    "N_SITES":      128,
+    "T1":           1.0,
+    "T2_MIN":       0.15,
+    "T2_MAX":       2.50,
+    "T3_NNN":       0.30,
+    "DELTA_SYM":    0.40,
+    "HEIGHT_SCALE": 0.70,
+    "E_CLIP":       3.60
+  },
+  "shape_key_details": {
+    "Basis":      { "bc": "open",     "t3": 0,    "delta": 0,    "physics": "topological zero modes visible for t2 > t1" },
+    "SK_Periodic":{ "bc": "periodic", "t3": 0,    "delta": 0,    "physics": "zero modes absent; gap closes at t2=t1 only" },
+    "SK_NNN":     { "bc": "open",     "t3": 0.30, "delta": 0,    "physics": "sublattice symmetry broken; edge states shift from E=0" },
+    "SK_SymBreak":{ "bc": "open",     "t3": 0,    "delta": 0.40, "physics": "chiral symmetry broken; topological protection lifted" }
+  },
+  "export": {
+    "draco_level": 6,
+    "texture_format": "WEBP",
+    "export_morph": true,
+    "export_colors": true,
+    "y_up": true
+  },
+  "cross_references": {
+    "studio_tutorials": [
+      "/tutorials/blender-tutorial-python-numpy-tight-binding-2d-square-lattice-dispersion-fermi-surface-van-hove-singularity-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gross-pitaevskii-bec-rotating-vortex-lattice-abrikosov-imaginary-time-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-bloch-sphere-qubit-rabi-precession-berry-phase-su2-pauli-poi-webxr",
+      "/tutorials/blender-tutorial-python-numpy-cahn-hilliard-phase-field-spinodal-decomposition-ostwald-ripening-stage-floor-webxr"
+    ],
+    "studio_codex": [
+      "/codex/blender-python-scripting",
+      "/codex/numpy-in-blender"
+    ],
+    "outside_sources": [
+      {
+        "title": "Solitons in Polyacetylene",
+        "authors": "Su WP, Schrieffer JR, Heeger AJ",
+        "year": 1979,
+        "journal": "Physical Review Letters",
+        "volume": 42,
+        "pages": "1698-1701",
+        "doi": "10.1103/PhysRevLett.42.1698",
+        "licence": "Mathematical equations — public domain (>40 years, academic)",
+        "related_projects": [
+          "https://github.com/numpy/numpy",
+          "https://github.com/topocm/topocm_content"
+        ]
+      },
+      {
+        "title": "Berry's Phase for Energy Bands in Solids",
+        "authors": "Zak J",
+        "year": 1989,
+        "journal": "Physical Review Letters",
+        "volume": 62,
+        "pages": "2747-2750",
+        "doi": "10.1103/PhysRevLett.62.2747",
+        "licence": "Mathematical equations — public domain (>30 years, academic)",
+        "related_projects": [
+          "https://github.com/numpy/numpy",
+          "https://arxiv.org/abs/1509.02295"
+        ]
+      },
+      {
+        "title": "A Short Course on Topological Insulators",
+        "authors": "Asbóth JK, Oroszlány L, Pályi A",
+        "year": 2016,
+        "url": "https://arxiv.org/abs/1509.02295",
+        "licence": "CC-BY 4.0",
+        "related_projects": [
+          "https://github.com/topocm/topocm_content",
+          "https://github.com/numpy/numpy"
+        ]
+      },
+      {
+        "title": "Topology in Condensed Matter — interactive course",
+        "authors": "Akhmerov A et al. (Delft / topocm)",
+        "year": 2016,
+        "url": "https://github.com/topocm/topocm_content",
+        "licence": "CC0",
+        "related_projects": [
+          "https://arxiv.org/abs/1509.02295",
+          "https://numpy.org"
+        ]
+      }
+    ]
+  }
+}
