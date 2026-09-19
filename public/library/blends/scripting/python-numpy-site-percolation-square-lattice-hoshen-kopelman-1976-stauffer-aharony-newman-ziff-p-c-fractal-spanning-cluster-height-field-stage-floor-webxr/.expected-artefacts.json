@@ -1,0 +1,39 @@
+{
+  "blend": "holoflow_perc_floor.blend",
+  "glb": "holoflow_perc_floor.glb",
+  "videos": [
+    "public/library/videos/scripting/python-numpy-site-percolation-square-lattice-hoshen-kopelman-1976-stauffer-aharony-newman-ziff-p-c-fractal-spanning-cluster-height-field-stage-floor-webxr/viewport.mp4",
+    "public/library/videos/scripting/python-numpy-site-percolation-square-lattice-hoshen-kopelman-1976-stauffer-aharony-newman-ziff-p-c-fractal-spanning-cluster-height-field-stage-floor-webxr/screen.mp4"
+  ],
+  "shape_keys": ["Basis", "SK_Critical", "SK_Above", "SK_Bond"],
+  "vertex_count": 16384,
+  "quad_count": 16129,
+  "color_attribute": "Perc_Cluster",
+  "blender_version": "5.1",
+  "export_format": "GLB",
+  "draco_level": 6,
+  "texture_format": "WEBP",
+  "licence": "CC0",
+  "cross_references": {
+    "studio": [
+      "/tutorials/blender-tutorial-python-numpy-dla-diffusion-limited-aggregation-witten-sander-1981-fractal-growth-dendritic-crystal-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-bak-tang-wiesenfeld-1987-abelian-sandpile-self-organised-criticality-avalanche-power-law-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-drossel-schwabl-1992-forest-fire-model-self-organised-criticality-fire-cluster-power-law-height-field-stage-floor-webxr"
+    ],
+    "external": [
+      {
+        "title": "Newman & Ziff (2001) — Fast Monte Carlo algorithm for site or bond percolation",
+        "url": "https://arxiv.org/abs/cond-mat/0101295",
+        "licence": "CC0 / Public Domain",
+        "author": "M. E. J. Newman and R. M. Ziff"
+      },
+      {
+        "title": "Stauffer & Aharony (1994) — Introduction to Percolation Theory, 2nd ed.",
+        "url": "https://www.taylorfrancis.com/books/9780748402533",
+        "licence": "Academic reference (Taylor & Francis)",
+        "author": "Dietrich Stauffer and Amnon Aharony"
+      }
+    ]
+  }
+}

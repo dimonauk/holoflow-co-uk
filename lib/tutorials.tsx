@@ -736,6 +736,7 @@ import { entry as blenderTutorialPythonNumpyPhaseFieldCrystalElderGrant2004Hexag
 import { entry as blenderTutorialPythonNumpyWignerQuasiProbabilityDistribution1932QuantumPhaseSpaceFockStateCatStateSqueezeVacuumStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-wigner-quasi-probability-distribution-1932-quantum-phase-space-fock-state-cat-state-squeezed-vacuum-stage-floor-webxr";
 import { blenderTutorialPythonNumpyDrosselSchwabl1992ForestFireModelSelfOrganisedCriticalityFireClusterPowerLawHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-drossel-schwabl-1992-forest-fire-model-self-organised-criticality-fire-cluster-power-law-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyTasepTotallyAsymmetricExclusionProcessDerrida1998OpenBoundaryPhaseDiagramKpzSpaceTimeHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-tasep-totally-asymmetric-exclusion-process-derrida-1998-open-boundary-phase-diagram-kpz-space-time-height-field-stage-floor-webxr";
+import { blenderTutorialPythonNumpySitePercolationSquareLatticeHoshenKopelman1976StaufferAharonyNewmanZiffPcFractalSpanningClusterHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-site-percolation-square-lattice-hoshen-kopelman-1976-stauffer-aharony-newman-ziff-p-c-fractal-spanning-cluster-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1479,6 +1480,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpyWignerQuasiProbabilityDistribution1932QuantumPhaseSpaceFockStateCatStateSqueezeVacuumStageFloorWebxrEntry,
   blenderTutorialPythonNumpyDrosselSchwabl1992ForestFireModelSelfOrganisedCriticalityFireClusterPowerLawHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyTasepTotallyAsymmetricExclusionProcessDerrida1998OpenBoundaryPhaseDiagramKpzSpaceTimeHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpySitePercolationSquareLatticeHoshenKopelman1976StaufferAharonyNewmanZiffPcFractalSpanningClusterHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);
