@@ -1,0 +1,61 @@
+{
+  "blend": "skyrmion_floor.blend",
+  "glb": "skyrmion_floor.glb",
+  "vertex_count": 16384,
+  "quad_count": 16129,
+  "colour_attribute": "SKY_Spin",
+  "colour_type": "FLOAT_COLOR",
+  "shape_keys": ["Basis", "SK_Lattice", "SK_Helical", "SK_FM"],
+  "draco_level": 6,
+  "texture_format": "WEBP",
+  "export_morph": true,
+  "export_colors": true,
+  "yup": true,
+  "holoflow_category": "stage-floor",
+  "holoflow_facet": true,
+  "videos": {
+    "viewport": "public/library/videos/scripting/python-numpy-magnetic-skyrmion-skyrme-1962-bogomolny-dmi-dzyaloshinskii-moriya-topological-pontryagin-spin-texture-height-field-stage-floor-webxr/viewport.mp4",
+    "screen": "public/library/videos/scripting/python-numpy-magnetic-skyrmion-skyrme-1962-bogomolny-dmi-dzyaloshinskii-moriya-topological-pontryagin-spin-texture-height-field-stage-floor-webxr/screen.mp4"
+  },
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-xy-model-2d-berezinskii-kosterlitz-thouless-1971-1973-vortex-antivortex-unbinding-topological-phase-transition-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-haldane-1988-chern-insulator-berry-curvature-topological-phase-diagram-honeycomb-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-gross-pitaevskii-bec-rotating-vortex-lattice-abrikosov-imaginary-time-stage-floor-webxr"
+    ],
+    "external": [
+      {
+        "title": "A unified field theory of mesons and baryons",
+        "author": "Skyrme THR",
+        "year": 1962,
+        "journal": "Nuclear Physics",
+        "volume": "31",
+        "pages": "556-569",
+        "doi": "10.1016/0029-5582(62)90775-7",
+        "licence": "Public Domain (> 60 yr)"
+      },
+      {
+        "title": "Stability of classical solutions",
+        "author": "Bogomol'ny EB",
+        "year": 1976,
+        "journal": "Soviet Journal of Nuclear Physics",
+        "volume": "24",
+        "issue": "4",
+        "pages": "449-454",
+        "licence": "Public Domain (> 30 yr)"
+      },
+      {
+        "title": "Skyrmion Lattice in a Chiral Magnet",
+        "author": "Mühlbauer S, Binz B, Jonietz F, Pfleiderer C, Rosch A, Neubauer A, Georgii R, Böni P",
+        "year": 2009,
+        "journal": "Science",
+        "volume": "323",
+        "pages": "915-919",
+        "doi": "10.1126/science.1166767",
+        "url": "https://arxiv.org/abs/0902.1968",
+        "licence": "arXiv preprint freely available"
+      }
+    ]
+  }
+}
