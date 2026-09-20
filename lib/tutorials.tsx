@@ -739,6 +739,7 @@ import { blenderTutorialPythonNumpyTasepTotallyAsymmetricExclusionProcessDerrida
 import { blenderTutorialPythonNumpySitePercolationSquareLatticeHoshenKopelman1976StaufferAharonyNewmanZiffPcFractalSpanningClusterHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-site-percolation-square-lattice-hoshen-kopelman-1976-stauffer-aharony-newman-ziff-p-c-fractal-spanning-cluster-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyNlseNonlinearSchrodinger1972ZakharovShabatSolitonCollisionAkhmedievBreatherPeregrineRogueWaveHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-nlse-nonlinear-schrodinger-1972-zakharov-shabat-soliton-collision-akhmediev-breather-peregrine-rogue-wave-height-field-stage-floor-webxr";
 import { blenderTutorialPythonNumpyFrankOseenNematic1958OneConstantQTensorDisclinationHalfIntegerDefectsHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-frank-oseen-nematic-1958-one-constant-q-tensor-disclination-half-integer-defects-height-field-stage-floor-webxr";
+import { blenderTutorialPythonNumpyVicsek1995ActiveMatterSelfPropelledParticlesPolarOrderParameterFlockingPhaseTransitionHeightFieldStageFloorWebxrEntry } from "components/tutorials/entries/blender-tutorial-python-numpy-vicsek-1995-active-matter-self-propelled-particles-polar-order-parameter-flocking-phase-transition-height-field-stage-floor-webxr";
 import { Entry, sortByDateDescending } from "./writing";
 
 const ENTRIES: Entry[] = [
@@ -1485,6 +1486,7 @@ const ENTRIES: Entry[] = [
   blenderTutorialPythonNumpySitePercolationSquareLatticeHoshenKopelman1976StaufferAharonyNewmanZiffPcFractalSpanningClusterHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyNlseNonlinearSchrodinger1972ZakharovShabatSolitonCollisionAkhmedievBreatherPeregrineRogueWaveHeightFieldStageFloorWebxrEntry,
   blenderTutorialPythonNumpyFrankOseenNematic1958OneConstantQTensorDisclinationHalfIntegerDefectsHeightFieldStageFloorWebxrEntry,
+  blenderTutorialPythonNumpyVicsek1995ActiveMatterSelfPropelledParticlesPolarOrderParameterFlockingPhaseTransitionHeightFieldStageFloorWebxrEntry,
 ];
 
 export const tutorials: Entry[] = sortByDateDescending(ENTRIES);

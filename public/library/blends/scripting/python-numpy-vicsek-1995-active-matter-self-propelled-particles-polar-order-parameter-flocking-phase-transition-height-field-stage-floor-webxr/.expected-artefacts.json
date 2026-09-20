@@ -1,0 +1,52 @@
+{
+  "blend": "vicsek_floor.blend",
+  "glb": "vicsek_floor.glb",
+  "vertex_count": 16384,
+  "quad_count": 16129,
+  "colour_attribute": "Vicsek_Order",
+  "colour_type": "FLOAT_COLOR",
+  "shape_keys": ["Basis", "SK_Bands", "SK_Crit", "SK_Dis"],
+  "draco_level": 6,
+  "texture_format": "WEBP",
+  "export_morph": true,
+  "export_colors": true,
+  "yup": true,
+  "holoflow_category": "stage-floor",
+  "holoflow_facet": true,
+  "videos": {
+    "viewport": "public/library/videos/scripting/python-numpy-vicsek-1995-active-matter-self-propelled-particles-polar-order-parameter-flocking-phase-transition-height-field-stage-floor-webxr/viewport.mp4",
+    "screen": "public/library/videos/scripting/python-numpy-vicsek-1995-active-matter-self-propelled-particles-polar-order-parameter-flocking-phase-transition-height-field-stage-floor-webxr/screen.mp4"
+  },
+  "cross_references": {
+    "internal": [
+      "/tutorials/blender-tutorial-python-numpy-kuramoto-2d-phase-oscillators-synchronisation-spiral-wave-chimera-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-frank-oseen-nematic-1958-one-constant-q-tensor-disclination-half-integer-defects-height-field-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-fitzhugh-nagumo-1961-excitable-media-spiral-target-reentrant-wave-stage-floor-webxr",
+      "/tutorials/blender-tutorial-python-numpy-ising-model-2d-metropolis-monte-carlo-onsager-exact-tc-ferromagnetic-domains-height-field-stage-floor-webxr"
+    ],
+    "external": [
+      {
+        "title": "Novel type of phase transition in a system of self-propelled particles",
+        "author": "Vicsek T, Czirók A, Ben-Jacob E, Cohen I, Shochet O",
+        "year": 1995,
+        "journal": "Physical Review Letters",
+        "volume": "75",
+        "pages": "1226-1229",
+        "doi": "10.1103/PhysRevLett.75.1226",
+        "url": "https://arxiv.org/abs/cond-mat/9507131",
+        "licence": "Public Domain (> 30 yr)"
+      },
+      {
+        "title": "Collective motion of self-propelled particles interacting without cohesion",
+        "author": "Chaté H, Ginelli F, Grégoire G, Raynaud F",
+        "year": 2008,
+        "journal": "Physical Review E",
+        "volume": "77",
+        "pages": "046113",
+        "doi": "10.1103/PhysRevE.77.046113",
+        "url": "https://arxiv.org/abs/0712.2062",
+        "licence": "arXiv preprint freely available"
+      }
+    ]
+  }
+}
